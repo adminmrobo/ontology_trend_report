@@ -51,6 +51,14 @@ sup.ref a{font-size:12px;text-decoration:none;color:var(--info);margin-left:1px}
 .say img.who{width:64px;height:64px;border-radius:12px;border:2px solid var(--c-doc);image-rendering:pixelated;background:#fff}
 .say .name{color:var(--c-doc);display:block;margin-bottom:2px}
 .say p{margin:0 0 8px}
+.memo{display:grid;grid-template-columns:80px 1fr;gap:16px;align-items:center;margin:22px 0;padding:14px 18px;border-radius:14px;background:#f8f6fd;border:1px solid #e6dff8}
+.memo img{width:80px;height:80px;border-radius:50%;object-fit:cover;object-position:50% 12%;background:#fff;border:2px solid var(--c-doc)}
+.memo .mh{font-size:13px;font-weight:700;color:var(--c-doc);display:block;margin-bottom:2px}
+.memo p{margin:0;font-size:15px}
+.hero-grid{display:grid;grid-template-columns:1fr 220px;gap:24px;align-items:end}
+.hero-doc{text-align:center}
+.hero-doc img{width:192px;height:192px;border-radius:20px;background:#f8f6fd;border:2px solid #e6dff8}
+.hero-doc small{display:block;font-size:12px;color:var(--muted);margin-top:4px}
 .qs{counter-reset:q;list-style:none;padding:0;margin:14px 0 0}
 .qs li{counter-increment:q;padding:10px 14px 10px 46px;position:relative;border:1px solid var(--rule);border-radius:10px;margin-bottom:8px;background:var(--panel)}
 .qs li::before{content:"Q" counter(q);position:absolute;left:12px;top:10px;font-weight:700;color:var(--c-doc)}
@@ -110,6 +118,9 @@ ol.refs .acc{color:var(--muted)}
 footer{padding:36px 0 60px;font-size:14px;color:var(--muted)}
 footer b{color:var(--text)}
 @media (max-width:760px){
+  .hero-grid{grid-template-columns:1fr}
+  .hero-doc{text-align:left}
+  .hero-doc img{width:120px;height:120px}
   .pos{grid-template-columns:1fr}
   .glance{grid-template-columns:1fr}
   .glance dt{border-bottom:0;padding-bottom:4px}
@@ -120,6 +131,8 @@ footer b{color:var(--text)}
   ol.tl time{text-align:left}
 }
 @media (max-width:520px){
+  .memo{grid-template-columns:56px 1fr;gap:12px}
+  .memo img{width:56px;height:56px}
   .say{grid-template-columns:52px 1fr}
   .say img.who{width:52px;height:52px}
   .kpis{grid-template-columns:1fr}
@@ -141,10 +154,13 @@ footer b{color:var(--text)}
 
 <header class="hero" id="top">
   <div class="wrap">
+    <div class="hero-grid"><div>
     <div class="kicker">연구실 리포트 · 동향 · 분야 ai</div>
     <h1>왜 지금 온톨로지인가</h1>
-    <p class="sub">AI 에이전트 시대에 다시 불려 나온 30년 된 개념 — 발표·표준·숫자로 본 2025~2026년</p>
+    <p class="sub">AI 에이전트 시대에 다시 불려 나온 30년 된 개념 — 박사가 발표·표준·숫자로 전하는 2025~2026년 소식</p>
     <div class="asof-big"><small>기준 시점</small><strong>2026년 11월 13일</strong></div>
+    </div>
+    <div class="hero-doc" data-img="cover_doc_news"><img src="__DOC_E08__" alt="" aria-hidden="true"><small>소식을 전하는 박사</small></div></div>
   </div>
 </header>
 
@@ -162,6 +178,7 @@ footer b{color:var(--text)}
       <dt>무엇이 달라지나</dt>
       <dd>온톨로지가 사람이 읽는 분류표에서 에이전트가 읽는 제품 기능으로 옮겨 가고 있습니다. 효과는 아직 예측과 기업 설명 단계입니다.<sup class="ref"><a href="#ref-1">[1]</a><a href="#ref-17">[17]</a></sup></dd>
     </dl>
+    <aside class="memo" id="memo-1" aria-label="박사의 메모"><img src="__DOC_E13__" alt="" aria-hidden="true"><div><b class="mh">박사의 메모</b><p>이 리포트에는 "시맨틱스"와 "온톨로지"가 함께 자주 나와요. 시맨틱스는 데이터의 뜻 전반을 가리키고, 온톨로지는 그 뜻을 대상·관계·규칙으로 적어 둔 명세를 가리킵니다.</p></div></aside>
   </div>
 </section>
 
@@ -169,10 +186,10 @@ footer b{color:var(--text)}
   <div class="wrap">
     <h2><span class="num">2</span>들어가며</h2>
     <div class="say" data-who="doc">
-      <img class="who" data-who="doc" data-mood="board" alt="" aria-hidden="true" src="__DOC_BOARD__">
+      <img class="who" data-who="doc" data-mood="guide" alt="" aria-hidden="true" src="__DOC_E08__">
       <div><b class="name">박사</b>
-        <p>온톨로지는 1990년대 지식공학에서 정의된 말입니다. 그런데 2026년 들어 조사기관 보도자료와 기업 실적 발표에 이 말이 자주 등장합니다.</p>
-        <p>이 리포트는 그 현상을 의견 없이, 발표와 숫자로만 정리합니다. 답할 질문은 세 가지입니다.</p>
+        <p>안녕하세요, 박사입니다. 온톨로지는 1990년대 지식공학에서 정의된 말이에요. 그런데 2026년 들어 조사기관 보도자료와 기업 실적 발표에 이 말이 자주 나옵니다.</p>
+        <p>그래서 제가 찾아본 발표문·공시·표준 목록을 바탕으로, 무슨 일이 있었는지 차근차근 전해 드리려 합니다. 함께 볼 질문은 세 가지예요.</p>
       </div>
     </div>
     <ol class="qs">
@@ -186,7 +203,7 @@ footer b{color:var(--text)}
 <section id="sec-3">
   <div class="wrap">
     <h2><span class="num">3</span>무슨 일이 있었나</h2>
-    <p>2025년 9월부터 2026년 11월까지의 발표를 시간 순서로 적었습니다. 점 색은 발표의 종류를 나타냅니다.</p>
+    <p>무엇이 언제 발표됐을까요? 2025년 9월부터 2026년 11월까지의 발표를 시간 순서로 적었습니다. 점 색은 발표의 종류를 나타냅니다.</p>
     <div class="legend-row" aria-hidden="true"><span>제품·실적</span><span class="std">표준·공동 규격</span><span class="view">조사·분석 의견</span></div>
     <ol class="tl" aria-label="온톨로지 관련 발표 타임라인, 2025년 9월부터 2026년 11월까지">
       <li id="tl-2025-09-23" class="std"><time datetime="2025-09-23">2025-09-23</time><div><span class="who">Snowflake 외</span>Snowflake·Salesforce·dbt Labs·BlackRock 등이 시맨틱 메타데이터를 도구 사이에서 같은 형식으로 주고받기 위한 공동 규격 Open Semantic Interchange(OSI)를 시작했습니다.<sup class="ref"><a href="#ref-7">[7]</a><a href="#ref-8">[8]</a></sup></div></li>
@@ -202,6 +219,7 @@ footer b{color:var(--text)}
       <li id="tl-2026-10-30" class="std"><time datetime="2026-10-30">2026-10-30</time><div><span class="who">ISO</span>세르비아 표준원 목록은 ISO 23726-3을 발행 준비 단계(60.00)로 표시합니다.<sup class="ref"><a href="#ref-10">[10]</a></sup> <span class="chip med">한 곳에서 확인</span></div></li>
       <li id="tl-2026-11-02"><time datetime="2026-11-02">2026-11-02</time><div><span class="who">Palantir</span>3분기 매출 23억 1,300만 달러(전년 대비 96% 증가)를 발표했습니다. 분기 매출이 처음으로 20억 달러를 넘었습니다.<sup class="ref"><a href="#ref-11">[11]</a></sup></div></li>
     </ol>
+    <aside class="memo" id="memo-3" aria-label="박사의 메모"><img src="__DOC_E07__" alt="" aria-hidden="true"><div><b class="mh">박사의 메모</b><p>헷갈리기 쉬운 점이 하나 있어요. 2026년 6월 2일에 정식 출시된 것은 Fabric IQ 전체이고, 그 안의 온톨로지 기능은 그날 기준으로 아직 출시 예정이었습니다.<sup class="ref"><a href="#ref-4">[4]</a></sup></p></div></aside>
   </div>
 </section>
 
@@ -227,12 +245,13 @@ footer b{color:var(--text)}
     </table></div>
     <p class="srcline">출처: 각 행의 번호, 2026-11-13 접속</p>
 
-    <h3 id="sec-4-3">왜 지금이라고 설명되나</h3>
-    <p>현장의 설명은 두 갈래로 모입니다. 하나는 쓰는 쪽의 변화이고, 다른 하나는 만드는 비용의 변화입니다.</p>
+    <h3 id="sec-4-3">왜 하필 지금일까요?</h3>
+    <p>발표들에 담긴 설명은 두 갈래로 모입니다. 하나는 쓰는 쪽의 변화이고, 다른 하나는 만드는 비용의 변화입니다.</p>
     <p class="key">쓰는 쪽: 사람이 확인하던 답이 에이전트의 행동으로 바뀌었다는 설명입니다.</p>
     <p>Gartner는 에이전트가 조직 데이터의 관계와 규칙을 모르면 정확히 동작할 수 없고, 환각과 편향이 늘어난다고 밝혔습니다.<sup class="ref"><a href="#ref-1">[1]</a></sup> 같은 보도자료는 스키마 기반 데이터 모델만으로는 에이전트형 AI에 충분하지 않다고 적었습니다.<sup class="ref"><a href="#ref-1">[1]</a></sup></p>
     <p class="key">만드는 쪽: LLM이 온톨로지 초안을 쓰는 비용을 낮췄다는 설명입니다.</p>
     <p>Microsoft Fabric IQ는 기존 데이터 모델과 문서를 읽어 대상·관계·규칙을 먼저 제안하는 방식을 씁니다.<sup class="ref"><a href="#ref-5">[5]</a></sup> Thoughtworks는 LLM이 초안 작성을 빠르게 하지만 유지보수 문제는 풀지 못한다고 적었습니다.<sup class="ref"><a href="#ref-18">[18]</a></sup> 데이터 카탈로그 기업 Atlan도 에이전트가 정의의 수요를 늘리고 LLM이 초안 비용을 줄였다고 설명했습니다.<sup class="ref"><a href="#ref-26">[26]</a></sup></p>
+    <aside class="memo" id="memo-4" aria-label="박사의 메모"><img src="__DOC_E07__" alt="" aria-hidden="true"><div><b class="mh">박사의 메모</b><p>온톨로지와 지식 그래프는 짝으로 나와요. 온톨로지가 어떤 종류와 관계가 있을 수 있는지를 정하고, 지식 그래프는 그 틀에 맞춰 실제 사실을 채웁니다.</p></div></aside>
   </div>
 </section>
 
@@ -240,7 +259,7 @@ footer b{color:var(--text)}
   <div class="wide">
     <div class="wrap" style="padding:0">
       <h2><span class="num">5</span>숫자로 보기</h2>
-      <p>숫자는 세 종류입니다. 조사기관의 예측, 온톨로지를 제품 중심에 둔 기업의 실적, 지식 그래프의 규모입니다. 셋 다 온톨로지의 효과를 직접 잰 값은 아닙니다.</p>
+      <p>숫자로는 무엇을 확인할 수 있을까요? 이 장의 숫자는 세 종류입니다. 조사기관의 예측, 온톨로지를 제품 중심에 둔 기업의 실적, 지식 그래프의 규모입니다. 셋 다 온톨로지의 효과를 직접 잰 값은 아닙니다.</p>
       <h3 id="sec-5-1">Gartner의 2027년 예측</h3>
       <div class="kpis" id="kpi-gartner">
         <div class="kpi"><b>최대 80%</b><span>에이전트형 AI 정확도 향상 (예측)</span></div>
@@ -278,6 +297,7 @@ footer b{color:var(--text)}
         </tbody>
       </table></div>
       <p class="srcline">출처: Google 블로그(2012-05-16), Search Engine Journal(2020), Wikipedia, 2026-11-13 접속</p>
+      <aside class="memo" id="memo-5" aria-label="박사의 메모"><img src="__DOC_E13__" alt="" aria-hidden="true"><div><b class="mh">박사의 메모</b><p>그림 5-1은 한 회사의 매출이에요. 온톨로지 시장 전체의 크기나 온톨로지의 효과를 잰 숫자는 아닙니다.</p></div></aside>
     </div>
   </div>
 </section>
@@ -285,7 +305,7 @@ footer b{color:var(--text)}
 <section id="sec-6">
   <div class="wrap">
     <h2><span class="num">6</span>반응과 쟁점</h2>
-    <p>쟁점은 "온톨로지가 필요한가"보다 "얼마나 넓게, 누가 유지하며 만드는가"에 모여 있습니다. 입장을 두 갈래로 나눠 같은 분량으로 적었습니다.</p>
+    <p>어디에서 의견이 갈릴까요? 발표들을 모아 보면 쟁점은 "얼마나 넓게, 누가 유지하며 만드는가"에 모여 있습니다. 입장을 두 갈래로 나눠 같은 분량으로 적었습니다.</p>
     <div class="pos">
       <div id="pos-a">
         <h3>A. 에이전트의 기반으로 먼저 갖춰야 한다</h3>
@@ -315,6 +335,7 @@ footer b{color:var(--text)}
       </tbody>
     </table></div>
     <p>두 입장은 서로 배타적이지 않습니다. A 쪽 Forrester도 대부분의 조직이 아직 지식 그래프를 만들 준비가 되지 않았다고 적었고,<sup class="ref"><a href="#ref-6">[6]</a></sup> B 쪽 Thoughtworks도 온톨로지가 에이전트의 행동 전에 허용 범위를 정해 준다고 적었습니다.<sup class="ref"><a href="#ref-18">[18]</a></sup></p>
+    <aside class="memo" id="memo-6" aria-label="박사의 메모"><img src="__DOC_E13__" alt="" aria-hidden="true"><div><b class="mh">박사의 메모</b><p>두 입장 모두 온톨로지가 필요 없다고 말하지는 않아요. 출처들이 다르게 말하는 곳은 시작하는 범위와 순서입니다.</p></div></aside>
   </div>
 </section>
 
@@ -334,6 +355,7 @@ footer b{color:var(--text)}
       <li>Microsoft Fabric IQ 온톨로지 기능의 정식 출시 공지</li>
       <li>Palantir 2026년 4분기 실적 (회사 전망치 26억 4,900만~26억 5,300만 달러)<sup class="ref"><a href="#ref-11">[11]</a></sup></li>
     </ul>
+    <aside class="memo" id="memo-7" aria-label="박사의 메모"><img src="__DOC_E09__" alt="" aria-hidden="true"><div><b class="mh">박사의 메모</b><p>표준 목록마다 갱신하는 날짜가 달라서, 같은 표준이 다른 단계로 보일 수 있어요. 그래서 두 목록의 값을 모두 적어 두었습니다.</p></div></aside>
   </div>
 </section>
 
@@ -341,10 +363,10 @@ footer b{color:var(--text)}
   <div class="wrap">
     <h2><span class="num">8</span>맺음말</h2>
     <div class="say" data-who="doc">
-      <img class="who" data-who="doc" data-mood="front" alt="" aria-hidden="true" src="__DOC_FRONT__">
+      <img class="who" data-who="doc" data-mood="guide" alt="" aria-hidden="true" src="__DOC_E08__">
       <div><b class="name">박사</b>
-        <p>정리하면, 2026년의 온톨로지 동향은 조사기관의 권고, 플랫폼의 제품 출시, 국제 표준의 마무리가 같은 시기에 겹친 모습입니다.</p>
-        <p>효과를 보여 주는 숫자는 아직 예측과 기업 설명입니다. 내년 이맘때 같은 질문으로 다시 정리하면, 예측과 실제를 나란히 놓을 수 있을 것입니다.</p>
+        <p>끝까지 읽어 주셔서 고맙습니다. 이번 소식은 조사기관의 권고, 플랫폼의 제품 출시, 국제 표준의 진행이 같은 시기에 나온 것이었어요.</p>
+        <p>다음에 볼 일정은 세 가지예요. ISO 23726-3 발행 공지, Fabric IQ 온톨로지 기능의 정식 출시 공지, Palantir 2026년 4분기 실적입니다. 새 발표가 나오면 기준 시점을 바꿔 새 항목으로 덧붙이겠습니다.</p>
       </div>
     </div>
   </div>
@@ -362,13 +384,14 @@ footer b{color:var(--text)}
       <dt id="g-owl">OWL · SHACL</dt><dd>OWL은 W3C의 온톨로지 언어, SHACL은 그래프 데이터가 정해진 모양 규칙을 지키는지 검사하는 W3C 언어입니다.</dd>
       <dt id="g-mcp">MCP (Model Context Protocol)</dt><dd>AI 에이전트가 외부 도구와 데이터에 연결하는 공개 프로토콜입니다.</dd>
     </dl>
+    <aside class="memo" id="memo-9" aria-label="박사의 메모"><img src="__DOC_E07__" alt="" aria-hidden="true"><div><b class="mh">박사의 메모</b><p>용어는 이 리포트에서 쓴 뜻으로만 풀었어요. 같은 말이라도 회사나 분야마다 조금씩 다르게 쓰기도 합니다.</p></div></aside>
   </div>
 </section>
 
 <section id="sec-9">
   <div class="wrap">
     <h2><span class="num">10</span>출처 목록</h2>
-    <p class="srcline">모든 출처의 접속일은 2026-11-13입니다. 1차 자료(발표문·공시·표준 목록·논문)를 우선했습니다.</p>
+    <aside class="memo" id="memo-10" aria-label="박사의 메모"><img src="__DOC_E13__" alt="" aria-hidden="true"><div><b class="mh">박사의 메모</b><p>출처는 발표문·공시·표준 목록·논문 같은 1차 자료를 먼저 찾았어요. 모든 출처의 접속일은 2026년 11월 13일입니다.</p></div></aside>
     <ol class="refs">
       <li id="ref-1">Gartner, "Gartner Says Lack of Semantics Causes Inaccurate AI Agents and Wasted Spending," 보도자료, 2026-05-11. <a href="https://www.gartner.com/en/newsroom/press-releases/2026-05-11-gartner-says-lack-of-semantics-causes-inaccurate-artificial-intelligence-agents-and-wasted-spending">gartner.com</a></li>
       <li id="ref-2">Microsoft Fabric 블로그, "From Data Platform to Intelligence Platform: Introducing Microsoft Fabric IQ," 2025-11 (Ignite 2025). <a href="https://blog.fabric.microsoft.com/en-us/blog/from-data-platform-to-intelligence-platform-introducing-microsoft-fabric-iq">blog.fabric.microsoft.com</a></li>
