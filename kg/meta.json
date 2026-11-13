@@ -1,0 +1,48 @@
+{
+ "title": "왜 지금 온톨로지인가 — AI 에이전트 시대에 다시 불려 나온 30년 된 개념",
+ "number": "R-2026-11-13",
+ "series": "연구실 리포트(동향)",
+ "about": [
+  "lab:concept/ontology",
+  "lab:concept/semantic-layer",
+  "lab:concept/knowledge-graph",
+  "lab:concept/llm-agent",
+  "lab:concept/context-layer",
+  "lab:standard/iso-23726-3"
+ ],
+ "basedOn": [
+  "gartner2026semantics",
+  "microsoft2026build",
+  "evelson2026build",
+  "dps2026iso",
+  "palantir2026q3",
+  "asthagiri2026why"
+ ],
+ "educationalLevel": "입문~중급",
+ "creator": [
+  {
+   "name": "안상선",
+   "role": "author"
+  }
+ ],
+ "contributor": [
+  {
+   "name": "AI 보조 제작",
+   "role": "assistant"
+  }
+ ],
+ "date": "2026-11-13",
+ "version": "1.0",
+ "language": [
+  "ko"
+ ],
+ "license": "",
+ "url": "https://adminmrobo.github.io/ontology_trend_report/",
+ "registry": "KG_00_registry 0.2",
+ "learningResourceType": "news report",
+ "domain": [
+  "ai"
+ ],
+ "seeAlso": "https://adminmrobo.github.io/ahnboat_lab_cover_status/ontology.html",
+ "suggestedCitation": "안상선 (2026). 왜 지금 온톨로지인가 — AI 에이전트 시대에 다시 불려 나온 30년 된 개념. 연구실 리포트(동향) R-2026-11-13, v1.0."
+}

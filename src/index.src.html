@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>왜 지금 온톨로지인가 — 연구실 리포트(동향) · 2026년 11월 13일 기준</title>
+<meta name="description" content="AI 에이전트가 늘면서 30년 넘은 개념인 온톨로지가 다시 주목받는 현상을 발표·통계·표준 동향 중심으로 정리한 연구실 리포트(동향)입니다. 2026년 11월 13일 기준.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ffffff; --panel:#f6f6fa; --panel2:#eeeef5; --rule:#e2e2ec;
+  --text:#1b1b26; --muted:#5b5b72;
+  --stain:#a3389f; --gfp:#146c43; --eye:#c8402f; --amber:#8a5700; --info:#2a63c4;
+  --c-doc:#7a4fd6;
+  --series-1:#2a78d6; --surface-1:#ffffff;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:66px}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;font-size:16px;line-height:1.8;word-break:keep-all;overflow-wrap:break-word}
+a{color:var(--info)}
+:focus-visible{outline:3px solid #f1b646;outline-offset:2px}
+nav.top{position:sticky;top:0;z-index:20;height:54px;display:flex;align-items:center;gap:14px;padding:0 18px;background:rgba(255,255,255,.88);backdrop-filter:blur(8px);border-bottom:1px solid var(--rule);overflow-x:auto;white-space:nowrap;font-size:14px}
+nav.top b{color:var(--c-doc);margin-right:6px}
+nav.top a{color:var(--muted);text-decoration:none}
+nav.top a:hover{color:var(--text)}
+nav.top .asof{margin-left:auto;color:var(--text);font-weight:700;padding:2px 10px;border:1px solid var(--rule);border-radius:999px;background:var(--panel)}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+.wide{max-width:980px;margin:0 auto;padding:0 20px}
+header.hero{padding:64px 0 40px;border-bottom:1px solid var(--rule);background:
+  radial-gradient(circle at 92% 8%,rgba(122,79,214,.10),transparent 42%),var(--bg)}
+.kicker{font-size:14px;font-weight:700;color:var(--c-doc);letter-spacing:.04em}
+h1{font-size:clamp(32px,5vw,52px);line-height:1.25;margin:10px 0 14px}
+h2{font-size:clamp(24px,3vw,32px);line-height:1.35;margin:0 0 16px}
+h3{font-size:19px;margin:28px 0 8px}
+.sub{font-size:18px;color:var(--muted);margin:0 0 22px}
+.asof-big{display:inline-flex;flex-direction:column;padding:12px 18px;border:2px solid var(--text);border-radius:12px;background:#fff}
+.asof-big small{font-size:13px;color:var(--muted)}
+.asof-big strong{font-size:24px;font-variant-numeric:tabular-nums}
+section{padding:52px 0;border-bottom:1px solid var(--rule)}
+.num{display:inline-grid;place-items:center;width:34px;height:38px;margin-right:10px;vertical-align:middle;font-size:16px;color:#fff;background:var(--c-doc);clip-path:polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%)}
+p{margin:0 0 14px}
+.key{font-weight:700;margin:18px 0}
+sup.ref a{font-size:12px;text-decoration:none;color:var(--info);margin-left:1px}
+.glance{display:grid;grid-template-columns:120px 1fr;border:1px solid var(--rule);border-radius:12px;overflow:hidden}
+.glance dt,.glance dd{margin:0;padding:14px 16px;border-bottom:1px solid var(--rule)}
+.glance dt{background:var(--panel);font-weight:700}
+.glance dt:nth-last-of-type(1),.glance dd:last-of-type{border-bottom:0}
+.say{display:grid;grid-template-columns:64px 1fr;gap:14px;align-items:start;margin:18px 0;padding:14px 16px;border:2px solid var(--c-doc);border-radius:14px;background:#faf7ff}
+.say img.who{width:64px;height:64px;border-radius:12px;border:2px solid var(--c-doc);image-rendering:pixelated;background:#fff}
+.say .name{color:var(--c-doc);display:block;margin-bottom:2px}
+.say p{margin:0 0 8px}
+.qs{counter-reset:q;list-style:none;padding:0;margin:14px 0 0}
+.qs li{counter-increment:q;padding:10px 14px 10px 46px;position:relative;border:1px solid var(--rule);border-radius:10px;margin-bottom:8px;background:var(--panel)}
+.qs li::before{content:"Q" counter(q);position:absolute;left:12px;top:10px;font-weight:700;color:var(--c-doc)}
+ol.tl{list-style:none;margin:20px 0 0;padding:0;position:relative}
+ol.tl::before{content:"";position:absolute;left:110px;top:6px;bottom:6px;width:2px;background:var(--rule)}
+ol.tl li{display:grid;grid-template-columns:96px 1fr;gap:30px;position:relative;padding:0 0 18px}
+ol.tl li::after{content:"";position:absolute;left:104px;top:9px;width:14px;height:14px;border-radius:50%;background:#fff;border:3px solid var(--series-1)}
+ol.tl li.std::after{border-color:var(--gfp)}
+ol.tl li.view::after{border-color:var(--amber)}
+ol.tl time{font-variant-numeric:tabular-nums;font-weight:700;font-size:14px;padding-top:2px;text-align:right}
+ol.tl .who{display:inline-block;font-size:12px;font-weight:700;color:var(--muted);border:1px solid var(--rule);border-radius:999px;padding:0 8px;margin-right:6px;background:var(--panel)}
+.legend-row{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:var(--muted);margin-top:8px}
+.legend-row span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:50%;border:3px solid var(--series-1);margin-right:6px;vertical-align:-1px}
+.legend-row .std::before{border-color:var(--gfp)}
+.legend-row .view::before{border-color:var(--amber)}
+.explain{border-left:4px solid var(--amber);background:#fff8e8;padding:14px 16px;border-radius:0 10px 10px 0;margin:18px 0}
+.explain b{color:var(--amber)}
+.tw{overflow-x:auto;margin:14px 0}
+table.tb{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}
+table.tb caption{text-align:left;font-weight:700;padding-bottom:8px}
+table.tb th,table.tb td{border-bottom:1px solid var(--rule);padding:9px 10px;text-align:left;vertical-align:top}
+table.tb th{background:var(--panel);font-size:14px}
+table.tb td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.srcline{font-size:13px;color:var(--muted);margin:6px 0 0}
+figure{margin:22px 0}
+figcaption{font-weight:700;margin-bottom:8px}
+.chart-box{position:relative;border:1px solid var(--rule);border-radius:12px;padding:14px 10px 6px;background:var(--surface-1)}
+.chart-box svg{display:block;width:100%;height:auto}
+.chart-box .gl{stroke:#ececf2}
+.chart-box .ax{fill:var(--muted);font-size:12px}
+.chart-box .vl{fill:var(--text);font-size:12px;font-weight:700}
+.chart-box .bar{fill:var(--series-1)}
+.chart-box .bar.on{fill:#1d5fae}
+#tip{position:absolute;pointer-events:none;display:none;background:#fff;border:1px solid var(--rule);box-shadow:0 4px 14px rgba(0,0,0,.12);border-radius:8px;padding:8px 10px;font-size:13px;line-height:1.5;white-space:nowrap}
+.fig-tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px;font-size:14px}
+.bt{font:inherit;font-size:14px;padding:6px 12px;border:1px solid var(--rule);border-radius:8px;background:#fff;color:var(--text);cursor:pointer}
+.bt:hover{background:var(--panel)}
+.summary{font-size:15px;color:var(--text);background:var(--panel);border-radius:8px;padding:8px 12px;margin-top:10px}
+details{margin-top:10px}
+summary{cursor:pointer;color:var(--info);font-size:14px}
+.kpis{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:16px 0}
+.kpi{border:1px solid var(--rule);border-radius:12px;padding:14px 16px;background:var(--panel)}
+.kpi b{display:block;font-size:30px;font-variant-numeric:tabular-nums;line-height:1.2}
+.kpi span{font-size:14px;color:var(--muted)}
+.pos{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:16px 0}
+.pos > div{border:1px solid var(--rule);border-radius:12px;padding:16px;background:var(--panel)}
+.pos h3{margin-top:0}
+.pos ul{margin:0;padding-left:20px}
+.unk li{margin-bottom:10px}
+.chip{display:inline-block;font-size:12px;font-weight:700;padding:1px 8px;border-radius:999px;border:1px solid var(--rule);background:#fff;color:var(--muted);vertical-align:1px}
+.chip.med{color:var(--amber);border-color:#ecd39a}
+dl.gloss dt{font-weight:700;margin-top:12px}
+dl.gloss dd{margin:2px 0 0;color:var(--text)}
+ol.refs{padding-left:24px;font-size:14px}
+ol.refs li{margin-bottom:8px}
+ol.refs .acc{color:var(--muted)}
+footer{padding:36px 0 60px;font-size:14px;color:var(--muted)}
+footer b{color:var(--text)}
+@media (max-width:760px){
+  .pos{grid-template-columns:1fr}
+  .glance{grid-template-columns:1fr}
+  .glance dt{border-bottom:0;padding-bottom:4px}
+  .glance dd{padding-top:0}
+  ol.tl::before{left:8px}
+  ol.tl li{grid-template-columns:1fr;gap:2px;padding-left:30px}
+  ol.tl li::after{left:2px}
+  ol.tl time{text-align:left}
+}
+@media (max-width:520px){
+  .say{grid-template-columns:52px 1fr}
+  .say img.who{width:52px;height:52px}
+  .kpis{grid-template-columns:1fr}
+}
+/* 지식 색인·꾸러미(kgx.js)를 흰 배경에 맞춤 */
+.kgx .it .df,.kgx .todo li{color:var(--muted)!important}
+.kgx .tchip[aria-pressed=true]{color:#fff!important}
+.kgx-sec pre.cite,.kgx-sec pre{background:var(--panel2)!important;color:var(--text)!important}
+.kgx .path span.lim{color:#a8361c!important}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav class="top" aria-label="목차">
+  <b>연구실 리포트 · 동향</b>
+  <a href="#sec-1">한눈에</a><a href="#sec-3">무슨 일이</a><a href="#sec-4">배경</a><a href="#sec-5">숫자</a><a href="#sec-6">쟁점</a><a href="#sec-7">모르는 것</a><a href="#sec-9">출처</a>
+  <span class="asof">2026-11-13 기준</span>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="kicker">연구실 리포트 · 동향 · 분야 ai</div>
+    <h1>왜 지금 온톨로지인가</h1>
+    <p class="sub">AI 에이전트 시대에 다시 불려 나온 30년 된 개념 — 발표·표준·숫자로 본 2025~2026년</p>
+    <div class="asof-big"><small>기준 시점</small><strong>2026년 11월 13일</strong></div>
+  </div>
+</header>
+
+<main>
+<section id="sec-1">
+  <div class="wrap">
+    <h2><span class="num">1</span>한눈에 보기</h2>
+    <dl class="glance">
+      <dt>무슨 일이</dt>
+      <dd>데이터의 뜻과 관계를 정해 두는 온톨로지·시맨틱 계층을 AI 에이전트의 기반으로 내세우는 발표가 잇따랐습니다.<sup class="ref"><a href="#ref-1">[1]</a><a href="#ref-4">[4]</a><a href="#ref-6">[6]</a></sup></dd>
+      <dt>언제</dt>
+      <dd>2025년 9월(OSI 출범)부터 2026년 11월(Palantir 3분기 실적)까지입니다. 이 리포트 타임라인의 12건 중 6건이 2026년 5~6월에 있었습니다.<sup class="ref"><a href="#ref-7">[7]</a><a href="#ref-11">[11]</a></sup></dd>
+      <dt>누가</dt>
+      <dd>조사기관(Gartner, Forrester), 플랫폼 기업(Microsoft, Snowflake, Palantir), 표준 기구(ISO/TC 184/SC 4)입니다.<sup class="ref"><a href="#ref-2">[2]</a><a href="#ref-9">[9]</a></sup></dd>
+      <dt>무엇이 달라지나</dt>
+      <dd>온톨로지가 사람이 읽는 분류표에서 에이전트가 읽는 제품 기능으로 옮겨 가고 있습니다. 효과는 아직 예측과 기업 설명 단계입니다.<sup class="ref"><a href="#ref-1">[1]</a><a href="#ref-17">[17]</a></sup></dd>
+    </dl>
+  </div>
+</section>
+
+<section id="sec-2">
+  <div class="wrap">
+    <h2><span class="num">2</span>들어가며</h2>
+    <div class="say" data-who="doc">
+      <img class="who" data-who="doc" data-mood="board" alt="" aria-hidden="true" src="__DOC_BOARD__">
+      <div><b class="name">박사</b>
+        <p>온톨로지는 1990년대 지식공학에서 정의된 말입니다. 그런데 2026년 들어 조사기관 보도자료와 기업 실적 발표에 이 말이 자주 등장합니다.</p>
+        <p>이 리포트는 그 현상을 의견 없이, 발표와 숫자로만 정리합니다. 답할 질문은 세 가지입니다.</p>
+      </div>
+    </div>
+    <ol class="qs">
+      <li>2025~2026년에 온톨로지를 두고 누가, 무엇을 발표했나?</li>
+      <li>오래된 개념이 왜 지금 다시 불려 나왔다고 설명되나?</li>
+      <li>무엇이 숫자로 확인되고, 무엇이 아직 예측이나 주장인가?</li>
+    </ol>
+  </div>
+</section>
+
+<section id="sec-3">
+  <div class="wrap">
+    <h2><span class="num">3</span>무슨 일이 있었나</h2>
+    <p>2025년 9월부터 2026년 11월까지의 발표를 시간 순서로 적었습니다. 점 색은 발표의 종류를 나타냅니다.</p>
+    <div class="legend-row" aria-hidden="true"><span>제품·실적</span><span class="std">표준·공동 규격</span><span class="view">조사·분석 의견</span></div>
+    <ol class="tl" aria-label="온톨로지 관련 발표 타임라인, 2025년 9월부터 2026년 11월까지">
+      <li id="tl-2025-09-23" class="std"><time datetime="2025-09-23">2025-09-23</time><div><span class="who">Snowflake 외</span>Snowflake·Salesforce·dbt Labs·BlackRock 등이 시맨틱 메타데이터를 도구 사이에서 같은 형식으로 주고받기 위한 공동 규격 Open Semantic Interchange(OSI)를 시작했습니다.<sup class="ref"><a href="#ref-7">[7]</a><a href="#ref-8">[8]</a></sup></div></li>
+      <li id="tl-2025-11-18"><time datetime="2025-11-18">2025-11-18</time><div><span class="who">Microsoft</span>Ignite 2025에서 Fabric IQ를 발표했습니다. 핵심 기능인 Ontology 항목은 업무의 대상·관계·속성·규칙·행동을 모델로 정의합니다.<sup class="ref"><a href="#ref-2">[2]</a><a href="#ref-3">[3]</a></sup></div></li>
+      <li id="tl-2025-12-18" class="std"><time datetime="2025-12-18">2025-12-18</time><div><span class="who">ISO</span>산업 데이터 온톨로지 표준안 ISO/DIS 23726-3의 투표가 마감됐습니다(단계 40.60).<sup class="ref"><a href="#ref-9">[9]</a></sup></div></li>
+      <li id="tl-2026-05-04"><time datetime="2026-05-04">2026-05-04</time><div><span class="who">Palantir</span>1분기 매출 16억 3,300만 달러(전년 대비 85% 증가)를 발표했습니다. 경영진은 실적 설명에서 자사 온톨로지를 AI 운영의 중간 표현이라고 설명했습니다.<sup class="ref"><a href="#ref-16">[16]</a><a href="#ref-17">[17]</a></sup></div></li>
+      <li id="tl-2026-05-11" class="view"><time datetime="2026-05-11">2026-05-11</time><div><span class="who">Gartner</span>시맨틱스가 부족하면 AI 에이전트가 부정확해지고 지출이 낭비된다는 보도자료를 냈습니다. 2027년까지 시맨틱스를 우선한 조직은 에이전트 정확도가 최대 80% 오르고 비용이 최대 60% 준다고 예측했습니다.<sup class="ref"><a href="#ref-1">[1]</a><a href="#ref-27">[27]</a></sup></div></li>
+      <li id="tl-2026-06-02"><time datetime="2026-06-02">2026-06-02</time><div><span class="who">Microsoft</span>Build 2026에서 Fabric IQ를 정식 출시(GA)했습니다. 같은 발표에서 온톨로지 기능은 몇 달 안에 정식 출시될 예정이라고 밝혔습니다.<sup class="ref"><a href="#ref-4">[4]</a></sup></div></li>
+      <li id="tl-2026-06-02-forrester" class="view"><time datetime="2026-06-02">2026-06-02</time><div><span class="who">Forrester</span>에이전트형 AI에는 시맨틱 계층·온톨로지·지식 그래프가 필요하며, 시맨틱 계층에서 시작해 지식 그래프로 넓히라고 권고했습니다.<sup class="ref"><a href="#ref-6">[6]</a></sup></div></li>
+      <li id="tl-2026-06-03" class="std"><time datetime="2026-06-03">2026-06-03</time><div><span class="who">ISO</span>ISO 23726-3이 최종안(FDIS) 승인 단계(50.00)로 등록됐습니다.<sup class="ref"><a href="#ref-9">[9]</a></sup></div></li>
+      <li id="tl-2026-06-17" class="view"><time datetime="2026-06-17">2026-06-17</time><div><span class="who">Thoughtworks</span>온톨로지 사업이 실패하는 이유로 번역 간극·범위 확장·유지보수를 들고, 한 가지 사용 사례로 좁혀 시작하라고 권고했습니다.<sup class="ref"><a href="#ref-18">[18]</a></sup></div></li>
+      <li id="tl-2026-09-29"><time datetime="2026-09-29">2026-09-29</time><div><span class="who">Microsoft</span>FabCon Barcelona에서 Fabric IQ 온톨로지 기능을 갱신했습니다. Gartner는 첫 논평에서 AI가 온톨로지 초안을 제안하는 방식을 소개하고, 업무 전문가의 검증이 필요하다고 적었습니다.<sup class="ref"><a href="#ref-5">[5]</a></sup> <span class="chip med">한 곳에서 확인</span></div></li>
+      <li id="tl-2026-10-30" class="std"><time datetime="2026-10-30">2026-10-30</time><div><span class="who">ISO</span>세르비아 표준원 목록은 ISO 23726-3을 발행 준비 단계(60.00)로 표시합니다.<sup class="ref"><a href="#ref-10">[10]</a></sup> <span class="chip med">한 곳에서 확인</span></div></li>
+      <li id="tl-2026-11-02"><time datetime="2026-11-02">2026-11-02</time><div><span class="who">Palantir</span>3분기 매출 23억 1,300만 달러(전년 대비 96% 증가)를 발표했습니다. 분기 매출이 처음으로 20억 달러를 넘었습니다.<sup class="ref"><a href="#ref-11">[11]</a></sup></div></li>
+    </ol>
+  </div>
+</section>
+
+<section id="sec-4">
+  <div class="wrap">
+    <h2><span class="num">4</span>배경</h2>
+    <h3 id="sec-4-1">온톨로지란</h3>
+    <p>온톨로지는 한 분야에 무엇이 있고 그것들이 서로 어떤 관계인지를, 사람과 기계가 같은 뜻으로 읽도록 적어 둔 약속입니다. 지식공학에서 Gruber(1993)가 "개념화의 명시적 명세"로 정의한 것이 널리 인용됩니다.<sup class="ref"><a href="#ref-21">[21]</a></sup></p>
+    <div class="explain" id="sec-4-analogy"><b>비유 하나.</b> 마트의 진열 안내도와 닮았습니다. "요거트는 유제품, 유제품은 냉장 코너"라고 적혀 있으면 처음 온 손님도 직원에게 묻지 않고 찾습니다. 새 상품이 와도 "○○는 유제품"이라고 한 줄만 더하면 놓을 자리와 보관 규칙이 따라옵니다. 다만 실제 온톨로지는 진열 위치보다 훨씬 많은 관계와 규칙을 다룹니다.</div>
+
+    <h3 id="sec-4-2">이전 흐름</h3>
+    <div class="tw"><table class="tb">
+      <caption>&lt;표 4-1&gt; 온톨로지와 지식 그래프의 주요 이정표</caption>
+      <thead><tr><th>연도</th><th>일</th><th>출처</th></tr></thead>
+      <tbody>
+        <tr><td class="n">2023</td><td>LLMs4OL 연구가 대형 언어모델로 용어 분류·계층 발견·관계 추출을 시험했습니다(온톨로지 학습).</td><td><a href="#ref-25">[25]</a></td></tr>
+        <tr><td class="n">2024</td><td>Microsoft 연구진이 LLM으로 지식 그래프를 만들어 검색 증강에 쓰는 GraphRAG를 발표했습니다.</td><td><a href="#ref-24">[24]</a></td></tr>
+        <tr><td class="n">2017</td><td>W3C가 RDF 그래프를 조건에 맞는지 검사하는 언어 SHACL을 권고안으로 냈습니다.</td><td><a href="#ref-23">[23]</a></td></tr>
+        <tr><td class="n">2012</td><td>Google이 검색에 지식 그래프를 도입했습니다. 출시 때 대상 5억 개 이상, 사실 35억 개 이상이었습니다.</td><td><a href="#ref-19">[19]</a></td></tr>
+        <tr><td class="n">2009</td><td>W3C가 온톨로지 언어 OWL 2를 권고안으로 냈습니다.</td><td><a href="#ref-22">[22]</a></td></tr>
+        <tr><td class="n">1993</td><td>Gruber가 지식 공유를 위한 온톨로지 명세 방법을 발표했습니다.</td><td><a href="#ref-21">[21]</a></td></tr>
+      </tbody>
+    </table></div>
+    <p class="srcline">출처: 각 행의 번호, 2026-11-13 접속</p>
+
+    <h3 id="sec-4-3">왜 지금이라고 설명되나</h3>
+    <p>현장의 설명은 두 갈래로 모입니다. 하나는 쓰는 쪽의 변화이고, 다른 하나는 만드는 비용의 변화입니다.</p>
+    <p class="key">쓰는 쪽: 사람이 확인하던 답이 에이전트의 행동으로 바뀌었다는 설명입니다.</p>
+    <p>Gartner는 에이전트가 조직 데이터의 관계와 규칙을 모르면 정확히 동작할 수 없고, 환각과 편향이 늘어난다고 밝혔습니다.<sup class="ref"><a href="#ref-1">[1]</a></sup> 같은 보도자료는 스키마 기반 데이터 모델만으로는 에이전트형 AI에 충분하지 않다고 적었습니다.<sup class="ref"><a href="#ref-1">[1]</a></sup></p>
+    <p class="key">만드는 쪽: LLM이 온톨로지 초안을 쓰는 비용을 낮췄다는 설명입니다.</p>
+    <p>Microsoft Fabric IQ는 기존 데이터 모델과 문서를 읽어 대상·관계·규칙을 먼저 제안하는 방식을 씁니다.<sup class="ref"><a href="#ref-5">[5]</a></sup> Thoughtworks는 LLM이 초안 작성을 빠르게 하지만 유지보수 문제는 풀지 못한다고 적었습니다.<sup class="ref"><a href="#ref-18">[18]</a></sup> 데이터 카탈로그 기업 Atlan도 에이전트가 정의의 수요를 늘리고 LLM이 초안 비용을 줄였다고 설명했습니다.<sup class="ref"><a href="#ref-26">[26]</a></sup></p>
+  </div>
+</section>
+
+<section id="sec-5">
+  <div class="wide">
+    <div class="wrap" style="padding:0">
+      <h2><span class="num">5</span>숫자로 보기</h2>
+      <p>숫자는 세 종류입니다. 조사기관의 예측, 온톨로지를 제품 중심에 둔 기업의 실적, 지식 그래프의 규모입니다. 셋 다 온톨로지의 효과를 직접 잰 값은 아닙니다.</p>
+      <h3 id="sec-5-1">Gartner의 2027년 예측</h3>
+      <div class="kpis" id="kpi-gartner">
+        <div class="kpi"><b>최대 80%</b><span>에이전트형 AI 정확도 향상 (예측)</span></div>
+        <div class="kpi"><b>최대 60%</b><span>비용 절감 (예측)</span></div>
+      </div>
+      <p>대상은 "AI용 데이터에서 시맨틱스를 우선한 조직"이고, 시점은 2027년까지입니다. 2026년 5월 11일에 발표된 예측이며 측정값이 아닙니다.<sup class="ref"><a href="#ref-1">[1]</a><a href="#ref-27">[27]</a></sup></p>
+    </div>
+
+    <figure id="fig-5-1">
+      <figcaption>[그림 5-1] Palantir 분기 매출, 2025년 1분기~2026년 3분기 (단위: 10억 달러)</figcaption>
+      <div class="chart-box" id="chart-pltr">
+        <svg id="svg-pltr" viewBox="0 0 900 340" role="img" aria-label="Palantir 분기 매출 막대 그래프. 2025년 1분기 0.884에서 2026년 3분기 2.313(10억 달러)으로 일곱 분기 연속 증가."></svg>
+        <div id="tip" role="status" aria-live="polite"></div>
+      </div>
+      <p class="summary"><b>한 줄 요약.</b> 일곱 분기 동안 매출이 0.884에서 2.313(10억 달러)으로 약 2.6배가 됐습니다. 회사는 이를 AIP와 온톨로지 수요로 설명하며, 인과관계는 이 자료로 확인되지 않습니다.</p>
+      <div class="fig-tools">
+        <button class="bt" type="button" id="dl-pltr">CSV 내려받기</button>
+      </div>
+      <details><summary>표로 보기</summary>
+        <div class="tw"><table class="tb" id="tbl-pltr"><caption>&lt;표 5-1&gt; Palantir 분기 매출 (단위: 10억 달러)</caption><thead><tr><th>분기</th><th>매출</th><th>전년 같은 분기 대비</th><th>출처</th></tr></thead><tbody></tbody></table></div>
+      </details>
+      <p class="srcline">출처: Palantir 실적 발표(SEC 8-K)·분기 보고서, 2026-11-13 접속. 2025년 1분기는 2025년 9개월 누계에서 2·3분기를 빼서 계산했습니다.<sup class="ref"><a href="#ref-11">[11]</a><a href="#ref-12">[12]</a><a href="#ref-13">[13]</a><a href="#ref-14">[14]</a><a href="#ref-15">[15]</a><a href="#ref-16">[16]</a></sup></p>
+    </figure>
+
+    <div class="wrap" style="padding:0">
+      <h3 id="sec-5-3">지식 그래프의 규모</h3>
+      <p>Google 지식 그래프는 공개된 숫자가 있는 대표 사례입니다. 2020년 이후의 공식 수치는 찾지 못했습니다.</p>
+      <div class="tw"><table class="tb" id="tbl-5-2">
+        <caption>&lt;표 5-2&gt; Google 지식 그래프의 공개 규모</caption>
+        <thead><tr><th>시점</th><th>대상(개체)</th><th>사실</th><th>출처</th></tr></thead>
+        <tbody>
+          <tr><td>2020년 5월</td><td class="n">50억</td><td class="n">5,000억</td><td><a href="#ref-20">[20]</a></td></tr>
+          <tr><td>2016년</td><td class="n">—</td><td class="n">700억</td><td><a href="#ref-28">[28]</a> <span class="chip med">한 곳에서 확인</span></td></tr>
+          <tr><td>2012년 5월 (출시)</td><td class="n">5억 이상</td><td class="n">35억 이상</td><td><a href="#ref-19">[19]</a></td></tr>
+        </tbody>
+      </table></div>
+      <p class="srcline">출처: Google 블로그(2012-05-16), Search Engine Journal(2020), Wikipedia, 2026-11-13 접속</p>
+    </div>
+  </div>
+</section>
+
+<section id="sec-6">
+  <div class="wrap">
+    <h2><span class="num">6</span>반응과 쟁점</h2>
+    <p>쟁점은 "온톨로지가 필요한가"보다 "얼마나 넓게, 누가 유지하며 만드는가"에 모여 있습니다. 입장을 두 갈래로 나눠 같은 분량으로 적었습니다.</p>
+    <div class="pos">
+      <div id="pos-a">
+        <h3>A. 에이전트의 기반으로 먼저 갖춰야 한다</h3>
+        <ul>
+          <li>Gartner: 맥락 계층을 데이터·분석 기반의 핵심 요소로 갖추라고 권고했습니다.<sup class="ref"><a href="#ref-1">[1]</a></sup></li>
+          <li>Forrester: 의미 없는 데이터는 자율 시스템이 쓸 수 없다고 보고, 시맨틱 계층부터 시작하라고 했습니다.<sup class="ref"><a href="#ref-6">[6]</a></sup></li>
+          <li>Microsoft·Palantir: 온톨로지를 에이전트 제품의 중심 기능으로 내놓았습니다.<sup class="ref"><a href="#ref-4">[4]</a><a href="#ref-17">[17]</a></sup></li>
+        </ul>
+      </div>
+      <div id="pos-b">
+        <h3>B. 좁게 시작하고 유지 비용을 따져야 한다</h3>
+        <ul>
+          <li>Thoughtworks: 전사 모델부터 만들면 1년 안에 멈추기 쉽다며, 한 사용 사례로 좁히라고 했습니다.<sup class="ref"><a href="#ref-18">[18]</a></sup></li>
+          <li>Thoughtworks: 규정·조직이 바뀌는 속도를 수작업 모델이 따라가지 못하는 유지보수 문제를 가장 큰 실패 원인으로 들었습니다.<sup class="ref"><a href="#ref-18">[18]</a></sup></li>
+          <li>Gartner 첫 논평: AI가 만든 초안은 불완전하거나 칸막이식일 수 있어, 업무 전문가의 검증이 필요하다고 했습니다.<sup class="ref"><a href="#ref-5">[5]</a></sup></li>
+        </ul>
+      </div>
+    </div>
+    <div class="tw"><table class="tb" id="tbl-6-1">
+      <caption>&lt;표 6-1&gt; 입장별 정리</caption>
+      <thead><tr><th>입장</th><th>누가</th><th>근거로 든 것</th><th>출처</th></tr></thead>
+      <tbody>
+        <tr><td>A. 먼저 갖춘다</td><td>Gartner, Forrester</td><td>맥락이 없으면 에이전트의 정확도가 떨어지고 비용이 늘어남</td><td><a href="#ref-1">[1]</a><a href="#ref-6">[6]</a></td></tr>
+        <tr><td>A. 먼저 갖춘다</td><td>Microsoft, Palantir</td><td>제품 출시, 고객 사례, 실적 설명</td><td><a href="#ref-4">[4]</a><a href="#ref-17">[17]</a></td></tr>
+        <tr><td>B. 좁게 시작한다</td><td>Thoughtworks</td><td>번역 간극·범위 확장·유지보수로 인한 사업 중단</td><td><a href="#ref-18">[18]</a></td></tr>
+        <tr><td>B. 좁게 시작한다</td><td>Gartner(첫 논평)</td><td>AI 초안의 불완전성, 전문가 검증 필요</td><td><a href="#ref-5">[5]</a></td></tr>
+      </tbody>
+    </table></div>
+    <p>두 입장은 서로 배타적이지 않습니다. A 쪽 Forrester도 대부분의 조직이 아직 지식 그래프를 만들 준비가 되지 않았다고 적었고,<sup class="ref"><a href="#ref-6">[6]</a></sup> B 쪽 Thoughtworks도 온톨로지가 에이전트의 행동 전에 허용 범위를 정해 준다고 적었습니다.<sup class="ref"><a href="#ref-18">[18]</a></sup></p>
+  </div>
+</section>
+
+<section id="sec-7">
+  <div class="wrap">
+    <h2><span class="num">7</span>아직 모르는 것</h2>
+    <ul class="unk">
+      <li id="q-gartner"><b>예측이 맞을지.</b> Gartner의 "정확도 최대 80%, 비용 최대 60%"는 2027년을 향한 예측입니다. 측정 방법과 대상 조직은 보도자료에 공개되지 않았습니다.<sup class="ref"><a href="#ref-1">[1]</a></sup></li>
+      <li id="q-iso"><b>ISO 23726-3의 발행일.</b> 한 목록은 2026년 6월 3일 최종안 단계(50.00)를, 다른 목록은 10월 30일 발행 준비 단계(60.00)를 보여 줍니다. 기준 시점까지 ISO 공식 페이지에서 발행 여부를 확인하지 못했습니다.<sup class="ref"><a href="#ref-9">[9]</a><a href="#ref-10">[10]</a></sup></li>
+      <li id="q-fabric"><b>Fabric IQ 온톨로지의 정식 출시일.</b> 2026년 6월 2일 발표는 "몇 달 안"이라고만 밝혔습니다. 이후 정식 출시 여부는 확인되지 않았습니다.<sup class="ref"><a href="#ref-4">[4]</a></sup></li>
+      <li id="q-causal"><b>실적과 온톨로지의 관계.</b> Palantir 매출 증가가 온톨로지 기능 때문인지는 회사 설명 외의 독립 자료로 확인되지 않습니다.<sup class="ref"><a href="#ref-17">[17]</a></sup></li>
+      <li id="q-osi"><b>OSI 규격의 채택 범위.</b> 출범 때 참여 기업 목록은 공개됐지만, 규격이 실제로 얼마나 쓰이는지에 대한 수치는 찾지 못했습니다.<sup class="ref"><a href="#ref-8">[8]</a></sup></li>
+    </ul>
+    <h3>다음에 볼 것</h3>
+    <ul>
+      <li>ISO 23726-3 발행 공지 (ISO/TC 184/SC 4)</li>
+      <li>Microsoft Fabric IQ 온톨로지 기능의 정식 출시 공지</li>
+      <li>Palantir 2026년 4분기 실적 (회사 전망치 26억 4,900만~26억 5,300만 달러)<sup class="ref"><a href="#ref-11">[11]</a></sup></li>
+    </ul>
+  </div>
+</section>
+
+<section id="sec-8">
+  <div class="wrap">
+    <h2><span class="num">8</span>맺음말</h2>
+    <div class="say" data-who="doc">
+      <img class="who" data-who="doc" data-mood="front" alt="" aria-hidden="true" src="__DOC_FRONT__">
+      <div><b class="name">박사</b>
+        <p>정리하면, 2026년의 온톨로지 동향은 조사기관의 권고, 플랫폼의 제품 출시, 국제 표준의 마무리가 같은 시기에 겹친 모습입니다.</p>
+        <p>효과를 보여 주는 숫자는 아직 예측과 기업 설명입니다. 내년 이맘때 같은 질문으로 다시 정리하면, 예측과 실제를 나란히 놓을 수 있을 것입니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sec-glossary">
+  <div class="wrap">
+    <h2><span class="num">9</span>용어 풀이</h2>
+    <dl class="gloss">
+      <dt id="g-ontology">온톨로지 (ontology)</dt><dd>한 분야의 대상·관계·규칙을 사람과 기계가 같은 뜻으로 읽도록 적어 둔 명세입니다.</dd>
+      <dt id="g-semantic-layer">시맨틱 계층 (semantic layer)</dt><dd>데이터 위에 업무 용어와 지표의 정의를 얹어, 도구마다 같은 뜻으로 계산하게 하는 층입니다.</dd>
+      <dt id="g-kg">지식 그래프 (knowledge graph)</dt><dd>대상을 점, 관계를 선으로 이은 사실의 망입니다. 온톨로지가 정한 종류와 관계에 맞춰 실제 사실을 채운 것입니다.</dd>
+      <dt id="g-agent">AI 에이전트</dt><dd>목표를 받아 도구를 부르고 여러 단계를 스스로 실행하는 AI 시스템입니다.</dd>
+      <dt id="g-graphrag">GraphRAG</dt><dd>문서에서 지식 그래프를 만든 뒤 그 그래프를 근거로 답을 찾는 검색 증강 생성(RAG) 방식입니다.</dd>
+      <dt id="g-owl">OWL · SHACL</dt><dd>OWL은 W3C의 온톨로지 언어, SHACL은 그래프 데이터가 정해진 모양 규칙을 지키는지 검사하는 W3C 언어입니다.</dd>
+      <dt id="g-mcp">MCP (Model Context Protocol)</dt><dd>AI 에이전트가 외부 도구와 데이터에 연결하는 공개 프로토콜입니다.</dd>
+    </dl>
+  </div>
+</section>
+
+<section id="sec-9">
+  <div class="wrap">
+    <h2><span class="num">10</span>출처 목록</h2>
+    <p class="srcline">모든 출처의 접속일은 2026-11-13입니다. 1차 자료(발표문·공시·표준 목록·논문)를 우선했습니다.</p>
+    <ol class="refs">
+      <li id="ref-1">Gartner, "Gartner Says Lack of Semantics Causes Inaccurate AI Agents and Wasted Spending," 보도자료, 2026-05-11. <a href="https://www.gartner.com/en/newsroom/press-releases/2026-05-11-gartner-says-lack-of-semantics-causes-inaccurate-artificial-intelligence-agents-and-wasted-spending">gartner.com</a></li>
+      <li id="ref-2">Microsoft Fabric 블로그, "From Data Platform to Intelligence Platform: Introducing Microsoft Fabric IQ," 2025-11 (Ignite 2025). <a href="https://blog.fabric.microsoft.com/en-us/blog/from-data-platform-to-intelligence-platform-introducing-microsoft-fabric-iq">blog.fabric.microsoft.com</a></li>
+      <li id="ref-3">@IT(ITmedia), 「AIエージェントには業務の文脈が必要不可欠」 Microsoft Ignite 2025, 2025-11-19. <a href="https://atmarkit.itmedia.co.jp/ait/articles/2511/19/news121.html">atmarkit.itmedia.co.jp</a></li>
+      <li id="ref-4">Microsoft Azure 블로그, "Microsoft Build 2026: Building agentic apps with Microsoft Fabric and Microsoft Databases," 2026-06-02. <a href="https://azure.microsoft.com/en-us/blog/microsoft-build-2026-building-agentic-apps-with-microsoft-fabric-and-microsoft-databases/">azure.microsoft.com</a></li>
+      <li id="ref-5">Gartner, "First Take: Microsoft's Fabric IQ Updates Make Ontologies Operational," 2026-09 (FabCon Barcelona). <a href="https://www.gartner.com/en/insights/gartner-first-takes/microsoft-fabric-iq">gartner.com</a> <span class="acc">— 검색 결과의 원문 발췌로 확인, 본문 열람은 실패</span></li>
+      <li id="ref-6">Forrester (B. Evelson 외), "Build Meaning Before Machines: Why Semantics, Ontologies, And Knowledge Graphs Matter For Agentic AI," 2026-06-02. <a href="https://www.forrester.com/blogs/build-meaning-before-machines-why-semantics-ontologies-and-knowledge-graphs-matter-for-agentic-ai/">forrester.com</a></li>
+      <li id="ref-7">Snowflake, "Snowflake, Salesforce, dbt Labs, and More, Revolutionize Data Readiness for AI with Open Semantic Interchange Initiative," Business Wire, 2025-09-23. <a href="https://finance.yahoo.com/news/snowflake-salesforce-dbt-labs-more-130100051.html">finance.yahoo.com</a></li>
+      <li id="ref-8">Constellation Research, "Snowflake, Salesforce, BlackRock lead effort to standardize semantic data," 2025-09. <a href="https://www.constellationr.com/insights/news/snowflake-salesforce-blackrock-lead-effort-standardize-semantic-data">constellationr.com</a></li>
+      <li id="ref-9">Albanian General Directorate of Standardization, ISO/FDIS 23726-3 프로젝트 정보 (단계 50.00, 2026-06-03; 이전 40.60, 2025-12-18). <a href="https://dps.gov.al/en/project/show/iso:proj:87560">dps.gov.al</a></li>
+      <li id="ref-10">Institute for Standardization of Serbia, ISO 23726-3 프로젝트 정보 (단계 60.00, 2026-10-30). <a href="https://iss.rs/en/project/show/iso:proj:87560">iss.rs</a></li>
+      <li id="ref-11">Palantir Technologies, 2026년 3분기 실적 보도자료 (Form 8-K Exhibit 99.1), 2026-11-02. <a href="https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000045/a2026q3ex991pressrelease.htm">sec.gov</a></li>
+      <li id="ref-12">Palantir Technologies, 2026년 2분기 실적 보도자료 (Form 8-K Exhibit 99.1), 2026-08-03. <a href="https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000039/a2026q2ex991pressrelease.htm">sec.gov</a></li>
+      <li id="ref-13">Palantir Technologies, 2025년 4분기·연간 실적 보도자료, Business Wire, 2026-02-02. <a href="https://www.businesswire.com/news/home/20260201154946/en/">businesswire.com</a></li>
+      <li id="ref-14">Palantir Technologies, 2025년 2분기 실적 보도자료 (Form 8-K Exhibit 99.1), 2025-08-04. <a href="https://www.sec.gov/Archives/edgar/data/1321655/000132165525000105/a2025q2ex991pressrelease.htm">sec.gov</a></li>
+      <li id="ref-15">Kalkine, "Palantir Q3 2026 Revenue $2.31B, Net Income $1.13B" (2026년 3분기 Form 10-Q 요약: 3분기 및 9개월 누계 매출), 2026-11. <a href="https://kalkine.com/news/announcements/palantir-q3-2026-revenue-231b-net-income-113b">kalkine.com</a></li>
+      <li id="ref-16">Constellation Research, "Palantir's US commercial, government deals surge in Q1," 2026-05-04. <a href="https://www.constellationr.com/insights/news/palantirs-us-commercial-government-deals-surge-q1">constellationr.com</a></li>
+      <li id="ref-17">MarketBeat, "Palantir Technologies Q1 Earnings Call Highlights," 2026-05-04. <a href="https://www.marketbeat.com/instant-alerts/palantir-technologies-q1-earnings-call-highlights-2026-05-04/">marketbeat.com</a></li>
+      <li id="ref-18">N. Asthagiri, "Why ontologies matter, why they fail and how to build them anyway," Thoughtworks 블로그, 2026-06-17. <a href="https://www.thoughtworks.com/insights/blog/data-strategy/why-ontologies-matter-fail-build-anyway">thoughtworks.com</a></li>
+      <li id="ref-19">A. Singhal, "Introducing the Knowledge Graph: things, not strings," Google 블로그, 2012-05-16. <a href="https://blog.google/products/search/introducing-knowledge-graph-things-not/">blog.google</a></li>
+      <li id="ref-20">Search Engine Journal, "Google's Knowledge Graph: how it works" (500 billion facts about 5 billion entities), 2020-05. <a href="https://www.searchenginejournal.com/google-knowledge-graph-works-news/369484/">searchenginejournal.com</a></li>
+      <li id="ref-21">T. R. Gruber, "A translation approach to portable ontology specifications," <i>Knowledge Acquisition</i>, 1993. <a href="https://doi.org/10.1006/knac.1993.1008">doi:10.1006/knac.1993.1008</a></li>
+      <li id="ref-22">W3C, "OWL 2 Web Ontology Language Document Overview," 권고안 2009-10-27 (2판 2012-12-11). <a href="https://www.w3.org/TR/owl2-overview/">w3.org</a></li>
+      <li id="ref-23">W3C, "Shapes Constraint Language (SHACL)," 권고안 2017-07-20. <a href="https://www.w3.org/TR/shacl/">w3.org</a></li>
+      <li id="ref-24">D. Edge 외, "From Local to Global: A Graph RAG Approach to Query-Focused Summarization," arXiv:2404.16130, 2024-04-24. <a href="https://arxiv.org/abs/2404.16130">arxiv.org</a></li>
+      <li id="ref-25">H. Babaei Giglou, J. D'Souza, S. Auer, "LLMs4OL: Large Language Models for Ontology Learning," arXiv:2307.16648, 2023-07-31. <a href="https://arxiv.org/abs/2307.16648">arxiv.org</a></li>
+      <li id="ref-26">Atlan, "Why AI Grounding Is Driving Ontology Demand for Enterprise Agents," 2026. <a href="https://atlan.com/know/ai-agent/ontology/ontology-ai-grounding/">atlan.com</a> <span class="acc">— 업계 분석(벤더 글)</span></li>
+      <li id="ref-27">IT-Online, Gartner 예측 보도 (2027년 정확도 최대 80%, 비용 최대 60%), 2026-05. <a href="https://it-online.co.za/?p=316078">it-online.co.za</a></li>
+      <li id="ref-28">Wikipedia, "Knowledge Graph (Google)" (2016년 700억 사실). <a href="https://en.wikipedia.org/wiki/Knowledge_Graph_(Google)">wikipedia.org</a></li>
+    </ol>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><b>글 · 안상선</b> (<a href="https://adminmrobo.github.io/who_am_i/who_am_i.html">소개</a>) · (주)M-Robo 대표 · 기준 시점 2026년 11월 13일</p>
+    <p>연구실 리포트(동향)는 기준 시점 가까이 일어난 현상을 발표·통계·표준 자료로 정리하며 저자의 의견이나 전망을 담지 않습니다. 기준 시점 이후의 변화는 반영하지 않았습니다. AI 보조 제작.</p>
+  </div>
+</footer>
+
+<script type="application/json" id="report-data">
+{"asOf":"2026-11-13",
+ "pltr":{"unit":"10억 달러","rows":[
+  {"q":"2025 Q1","v":0.884,"yoy":null,"src":"ref-15","note":"9개월 누계 3.069 − 2분기 1.004 − 3분기 1.181"},
+  {"q":"2025 Q2","v":1.004,"yoy":48,"src":"ref-14"},
+  {"q":"2025 Q3","v":1.181,"yoy":null,"src":"ref-15"},
+  {"q":"2025 Q4","v":1.407,"yoy":70,"src":"ref-13"},
+  {"q":"2026 Q1","v":1.633,"yoy":85,"src":"ref-16"},
+  {"q":"2026 Q2","v":1.935,"yoy":93,"src":"ref-12"},
+  {"q":"2026 Q3","v":2.313,"yoy":96,"src":"ref-11"}]}}
+</script>
+<script>
+(function(){
+  var D=JSON.parse(document.getElementById('report-data').textContent);
+  var rows=D.pltr.rows, svg=document.getElementById('svg-pltr'), tip=document.getElementById('tip'), box=document.getElementById('chart-pltr');
+  var NS='http://www.w3.org/2000/svg', W=900,H=340,L=56,R=16,T=28,B=44, max=2.5;
+  function el(n,a,t){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);if(t!=null)e.textContent=t;svg.appendChild(e);return e;}
+  function y(v){return T+(H-T-B)*(1-v/max);}
+  for(var g=0;g<=max+1e-9;g+=0.5){el('line',{x1:L,x2:W-R,y1:y(g),y2:y(g),'class':'gl'});el('text',{x:L-8,y:y(g)+4,'text-anchor':'end','class':'ax'},g.toFixed(1));}
+  var n=rows.length, step=(W-L-R)/n, bw=Math.min(24,step*0.5);
+  rows.forEach(function(r,i){
+    var cx=L+step*(i+0.5), top=y(r.v), h=y(0)-top, x=cx-bw/2, rr=4;
+    var d='M'+x+','+y(0)+' V'+(top+rr)+' Q'+x+','+top+' '+(x+rr)+','+top+' H'+(x+bw-rr)+' Q'+(x+bw)+','+top+' '+(x+bw)+','+(top+rr)+' V'+y(0)+' Z';
+    var bar=el('path',{d:d,'class':'bar'});
+    el('text',{x:cx,y:H-B+18,'text-anchor':'middle','class':'ax'},r.q.replace(' ',' '));
+    if(i===0||i===n-1) el('text',{x:cx,y:top-8,'text-anchor':'middle','class':'vl'},r.v.toFixed(3));
+    var hit=el('rect',{x:cx-step/2,y:T,width:step,height:H-T-B,fill:'transparent',tabindex:0,role:'img','aria-label':r.q+' 매출 '+r.v.toFixed(3)+' 10억 달러'+(r.yoy?', 전년 대비 '+r.yoy+'% 증가':'')});
+    function show(ev){bar.setAttribute('class','bar on');tip.style.display='block';
+      tip.innerHTML='<b>'+r.q+'</b><br>매출 '+r.v.toFixed(3)+' (10억 달러)'+(r.yoy?'<br>전년 대비 +'+r.yoy+'%':'')+(r.note?'<br><small>'+r.note+'</small>':'');
+      var bb=box.getBoundingClientRect(), sx=bb.width/W, px=cx*sx+10, py=top*sx; if(px+tip.offsetWidth>bb.width-8)px=cx*sx-tip.offsetWidth-10;
+      tip.style.left=px+'px';tip.style.top=Math.max(4,py)+'px';}
+    function hide(){bar.setAttribute('class','bar');tip.style.display='none';}
+    hit.addEventListener('pointerenter',show);hit.addEventListener('pointerleave',hide);hit.addEventListener('focus',show);hit.addEventListener('blur',hide);
+  });
+  el('line',{x1:L,x2:W-R,y1:y(0),y2:y(0),stroke:'#9a9aac'});
+  var tb=document.querySelector('#tbl-pltr tbody');
+  rows.forEach(function(r){var tr=document.createElement('tr');
+    tr.innerHTML='<td>'+r.q+'</td><td class="n">'+r.v.toFixed(3)+'</td><td class="n">'+(r.yoy?'+'+r.yoy+'%':'—')+'</td><td><a href="#'+r.src+'">['+r.src.split('-')[1]+']</a>'+(r.note?' '+r.note:'')+'</td>';tb.appendChild(tr);});
+  document.getElementById('dl-pltr').addEventListener('click',function(){
+    var csv='quarter,revenue_usd_bn,yoy_pct,source\n'+rows.map(function(r){return [r.q,r.v,r.yoy==null?'':r.yoy,r.src].join(',');}).join('\n')+'\n';
+    var a=document.createElement('a');a.href=URL.createObjectURL(new Blob(['﻿'+csv],{type:'text/csv'}));a.download='fig-5-1_palantir_quarterly_revenue.csv';document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove();},0);
+  });
+})();
+</script>
+</body>
+</html>

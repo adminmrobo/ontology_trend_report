@@ -1,0 +1,629 @@
+{
+ "registry": "KG_00_registry 0.2",
+ "date": "2026-11-13",
+ "page": "ontology_trend_report/index.html",
+ "entries": [
+  {
+   "id": "lab:concept/ontology",
+   "type": "Concept",
+   "label_ko": "온톨로지",
+   "label_en": "ontology",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:concept/semantic-layer",
+   "type": "Concept",
+   "label_ko": "시맨틱 계층",
+   "label_en": "semantic layer",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:concept/knowledge-graph",
+   "type": "Concept",
+   "label_ko": "지식 그래프",
+   "label_en": "knowledge graph",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:concept/llm-agent",
+   "type": "Concept",
+   "label_ko": "에이전트",
+   "label_en": "AI agent",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:concept/context-layer",
+   "type": "Concept",
+   "label_ko": "맥락 계층",
+   "label_en": "context layer",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:concept/ontology-learning",
+   "type": "Concept",
+   "label_ko": "온톨로지 학습",
+   "label_en": "ontology learning",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:concept/hallucination",
+   "type": "Concept",
+   "label_ko": "환각",
+   "label_en": "hallucination",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:analogy/ontology-store-map",
+   "type": "Analogy",
+   "label_ko": "마트 진열 안내도",
+   "label_en": "store floor map",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:method/rag",
+   "type": "Method",
+   "label_ko": "RAG (검색 증강 생성)",
+   "label_en": "retrieval-augmented generation",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:method/graphrag",
+   "type": "Method",
+   "label_ko": "GraphRAG",
+   "label_en": "GraphRAG",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:method/fabric-iq-ontology",
+   "type": "Method",
+   "label_ko": "Fabric IQ 온톨로지",
+   "label_en": "Microsoft Fabric IQ Ontology",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:method/palantir-ontology",
+   "type": "Method",
+   "label_ko": "Palantir 온톨로지(AIP)",
+   "label_en": "Palantir Ontology (AIP)",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:method/llm-ontology-drafting",
+   "type": "Method",
+   "label_ko": "LLM으로 온톨로지 초안 쓰기",
+   "label_en": "LLM-assisted ontology drafting",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:method/minimum-viable-ontology",
+   "type": "Method",
+   "label_ko": "한 사용 사례로 좁혀 시작하기",
+   "label_en": "minimum viable ontology",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:limitation/manual-ontology-cost",
+   "type": "Limitation",
+   "label_ko": "수작업 구축 비용",
+   "label_en": "cost of manual ontology building",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:limitation/ontology-maintenance",
+   "type": "Limitation",
+   "label_ko": "유지보수 문제",
+   "label_en": "ontology maintenance problem",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:limitation/scope-creep",
+   "type": "Limitation",
+   "label_ko": "범위 확장",
+   "label_en": "scope creep",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:limitation/translation-gap",
+   "type": "Limitation",
+   "label_ko": "번역 간극",
+   "label_en": "translation gap",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:limitation/ai-draft-incompleteness",
+   "type": "Limitation",
+   "label_ko": "AI 초안의 불완전성",
+   "label_en": "incompleteness of AI-generated ontology drafts",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:standard/owl2",
+   "type": "Standard",
+   "label_ko": "OWL 2",
+   "label_en": "OWL 2 Web Ontology Language",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:standard/shacl",
+   "type": "Standard",
+   "label_ko": "SHACL",
+   "label_en": "Shapes Constraint Language",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:standard/iso-23726-3",
+   "type": "Standard",
+   "label_ko": "ISO 23726-3 산업 데이터 온톨로지(IDO)",
+   "label_en": "ISO 23726-3 Industrial Data Ontology",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:standard/open-semantic-interchange",
+   "type": "Standard",
+   "label_ko": "Open Semantic Interchange (OSI)",
+   "label_en": "Open Semantic Interchange",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:metric/palantir-quarterly-revenue",
+   "type": "Metric",
+   "label_ko": "Palantir 분기 매출",
+   "label_en": "Palantir quarterly revenue",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:metric/agentic-ai-accuracy",
+   "type": "Metric",
+   "label_ko": "에이전트형 AI 정확도",
+   "label_en": "agentic AI accuracy",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:metric/kg-fact-count",
+   "type": "Metric",
+   "label_ko": "지식 그래프 사실 수",
+   "label_en": "number of facts in a knowledge graph",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:question/gartner-prediction-validity",
+   "type": "Question",
+   "label_ko": "2027년 예측이 맞을지",
+   "label_en": "Will the 2027 Gartner prediction hold?",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:question/iso-23726-3-publication-date",
+   "type": "Question",
+   "label_ko": "ISO 23726-3의 발행일",
+   "label_en": "When is ISO 23726-3 published?",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:question/fabric-iq-ontology-ga-date",
+   "type": "Question",
+   "label_ko": "Fabric IQ 온톨로지의 정식 출시일",
+   "label_en": "When do Fabric IQ ontologies become GA?",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:question/revenue-ontology-causality",
+   "type": "Question",
+   "label_ko": "실적과 온톨로지 기능의 인과관계",
+   "label_en": "Is revenue growth caused by ontology features?",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:question/osi-adoption",
+   "type": "Question",
+   "label_ko": "OSI 규격의 실제 채택 범위",
+   "label_en": "How widely is OSI adopted?",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:work/gartner2026semantics",
+   "type": "Work",
+   "label_ko": "Gartner (2026) Gartner Newsroom",
+   "label_en": "Gartner Says Lack of Semantics Causes Inaccurate AI Agents and Wasted Spending",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/microsoft2025introducing",
+   "type": "Work",
+   "label_ko": "Microsoft (2025) Microsoft Fabric Updates Blog",
+   "label_en": "From Data Platform to Intelligence Platform: Introducing Microsoft Fabric IQ",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/itmedia2025ignite",
+   "type": "Work",
+   "label_ko": "@IT (ITmedia) (2025) @IT",
+   "label_en": "「AIエージェントには業務の文脈が必要不可欠」 Microsoftが年次イベントでWork IQなどを発表",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/microsoft2026build",
+   "type": "Work",
+   "label_ko": "Microsoft (2026) Microsoft Azure Blog",
+   "label_en": "Microsoft Build 2026: Building agentic apps with Microsoft Fabric and Microsoft Databases",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/gartner2026first",
+   "type": "Work",
+   "label_ko": "Gartner (2026) Gartner First Takes",
+   "label_en": "First Take: Microsoft's Fabric IQ Updates Make Ontologies Operational",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/evelson2026build",
+   "type": "Work",
+   "label_ko": "Evelson (2026) Forrester Blogs",
+   "label_en": "Build Meaning Before Machines: Why Semantics, Ontologies, And Knowledge Graphs Matter For Agentic AI",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/snowflake2025snowflake",
+   "type": "Work",
+   "label_ko": "Snowflake (2025) Business Wire",
+   "label_en": "Snowflake, Salesforce, dbt Labs, and More, Revolutionize Data Readiness for AI with Open Semantic Interchange Initiative",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/constellation2025snowflake",
+   "type": "Work",
+   "label_ko": "Constellation Research (2025) Constellation Research",
+   "label_en": "Snowflake, Salesforce, BlackRock lead effort to standardize semantic data",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/dps2026iso",
+   "type": "Work",
+   "label_ko": "General Directorate of Standardization (Albania) (2026) DPS standards catalogue",
+   "label_en": "ISO/FDIS 23726-3 project information",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/iss2026iso",
+   "type": "Work",
+   "label_ko": "Institute for Standardization of Serbia (2026) ISS standards catalogue",
+   "label_en": "ISO 23726-3 project information",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/palantir2026q3",
+   "type": "Work",
+   "label_ko": "Palantir Technologies (2026) U.S. SEC EDGAR",
+   "label_en": "Palantir Reports Q3 2026 results (Form 8-K Exhibit 99.1)",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/palantir2026q2",
+   "type": "Work",
+   "label_ko": "Palantir Technologies (2026) U.S. SEC EDGAR",
+   "label_en": "Palantir Reports Q2 2026 results (Form 8-K Exhibit 99.1)",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/palantir2026q4",
+   "type": "Work",
+   "label_ko": "Palantir Technologies (2026) Business Wire",
+   "label_en": "Palantir Reports Q4 2025 U.S. Comm Revenue Growth of 137% Y/Y and Revenue Growth of 70% Y/Y",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/palantir2025q2",
+   "type": "Work",
+   "label_ko": "Palantir Technologies (2025) U.S. SEC EDGAR",
+   "label_en": "Palantir Reports Q2 2025 results (Form 8-K Exhibit 99.1)",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/kalkine2026palantir",
+   "type": "Work",
+   "label_ko": "Kalkine (2026) Kalkine",
+   "label_en": "Palantir Q3 2026 Revenue $2.31B, Net Income $1.13B (Form 10-Q summary)",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/constellation2026palantir",
+   "type": "Work",
+   "label_ko": "Constellation Research (2026) Constellation Research",
+   "label_en": "Palantir's US commercial, government deals surge in Q1",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/marketbeat2026palantir",
+   "type": "Work",
+   "label_ko": "MarketBeat (2026) MarketBeat",
+   "label_en": "Palantir Technologies Q1 Earnings Call Highlights",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/asthagiri2026why",
+   "type": "Work",
+   "label_ko": "Asthagiri (2026) Thoughtworks Insights",
+   "label_en": "Why ontologies matter, why they fail and how to build them anyway",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/singhal2012introducing",
+   "type": "Work",
+   "label_ko": "Singhal (2012) Google Blog",
+   "label_en": "Introducing the Knowledge Graph: things, not strings",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/sej2020google",
+   "type": "Work",
+   "label_ko": "Search Engine Journal (2020) Search Engine Journal",
+   "label_en": "Google's Knowledge Graph: how it works",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/gruber1993translation",
+   "type": "Work",
+   "label_ko": "Gruber (1993) Knowledge Acquisition",
+   "label_en": "A translation approach to portable ontology specifications",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/edge2024local",
+   "type": "Work",
+   "label_ko": "Edge (2024) arXiv",
+   "label_en": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/babaeigiglou2023llms4ol",
+   "type": "Work",
+   "label_ko": "Babaei Giglou (2023) arXiv",
+   "label_en": "LLMs4OL: Large Language Models for Ontology Learning",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/atlan2026why",
+   "type": "Work",
+   "label_ko": "Atlan (2026) Atlan",
+   "label_en": "Why AI Grounding Is Driving Ontology Demand for Enterprise Agents",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  },
+  {
+   "id": "lab:work/itonline2026gartner",
+   "type": "Work",
+   "label_ko": "IT-Online (2026) IT-Online",
+   "label_en": "Gartner: semantics in AI-ready data (2027 prediction)",
+   "pages": [
+    "ontology_trend_report/index.html"
+   ],
+   "domain": []
+  }
+ ]
+}

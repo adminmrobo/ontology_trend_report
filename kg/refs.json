@@ -1,0 +1,1415 @@
+[
+ {
+  "id": "gartner2026semantics",
+  "type": "report",
+  "title": "Gartner Says Lack of Semantics Causes Inaccurate AI Agents and Wasted Spending",
+  "author": [
+   {
+    "literal": "Gartner"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     5,
+     11
+    ]
+   ]
+  },
+  "container-title": "Gartner Newsroom",
+  "URL": "https://www.gartner.com/en/newsroom/press-releases/2026-05-11-gartner-says-lack-of-semantics-causes-inaccurate-artificial-intelligence-agents-and-wasted-spending",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/gartner2026semantics",
+   "role": "primary",
+   "supports": [
+    "lab:claim/gartner-2027-prediction",
+    "lab:claim/gartner-semantics-agents",
+    "lab:claim/position-build-semantics-first"
+   ],
+   "locs": [
+    "#ref-1"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "보도자료 원문(gcom 미러) 대조, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "microsoft2025introducing",
+  "type": "webpage",
+  "title": "From Data Platform to Intelligence Platform: Introducing Microsoft Fabric IQ",
+  "author": [
+   {
+    "literal": "Microsoft"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     11
+    ]
+   ]
+  },
+  "container-title": "Microsoft Fabric Updates Blog",
+  "URL": "https://blog.fabric.microsoft.com/en-us/blog/from-data-platform-to-intelligence-platform-introducing-microsoft-fabric-iq",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/microsoft2025introducing",
+   "role": "primary",
+   "supports": [
+    "lab:claim/fabric-iq-announced-2025"
+   ],
+   "locs": [
+    "#ref-2"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "발표문 원문 대조, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "itmedia2025ignite",
+  "type": "article-newspaper",
+  "title": "「AIエージェントには業務の文脈が必要不可欠」 Microsoftが年次イベントでWork IQなどを発表",
+  "author": [
+   {
+    "literal": "@IT (ITmedia)"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     11,
+     19
+    ]
+   ]
+  },
+  "container-title": "@IT",
+  "URL": "https://atmarkit.itmedia.co.jp/ait/articles/2511/19/news121.html",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/itmedia2025ignite",
+   "role": "background",
+   "supports": [
+    "lab:claim/fabric-iq-announced-2025"
+   ],
+   "locs": [
+    "#ref-3"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "기사 검색 발췌 대조(발표일 2025-11-18 확인), 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "microsoft2026build",
+  "type": "webpage",
+  "title": "Microsoft Build 2026: Building agentic apps with Microsoft Fabric and Microsoft Databases",
+  "author": [
+   {
+    "literal": "Microsoft"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     6,
+     2
+    ]
+   ]
+  },
+  "container-title": "Microsoft Azure Blog",
+  "URL": "https://azure.microsoft.com/en-us/blog/microsoft-build-2026-building-agentic-apps-with-microsoft-fabric-and-microsoft-databases/",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/microsoft2026build",
+   "role": "primary",
+   "supports": [
+    "lab:claim/fabric-iq-ga-2026"
+   ],
+   "locs": [
+    "#ref-4"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "발표문 원문 대조, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "gartner2026first",
+  "type": "report",
+  "title": "First Take: Microsoft's Fabric IQ Updates Make Ontologies Operational",
+  "author": [
+   {
+    "literal": "Gartner"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     9
+    ]
+   ]
+  },
+  "container-title": "Gartner First Takes",
+  "URL": "https://www.gartner.com/en/insights/gartner-first-takes/microsoft-fabric-iq",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/gartner2026first",
+   "role": "background",
+   "supports": [
+    "lab:claim/gartner-first-take-fabric",
+    "lab:claim/position-start-narrow"
+   ],
+   "locs": [
+    "#ref-5"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "검색 결과의 원문 발췌만 확인(본문 열람 실패), 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "evelson2026build",
+  "type": "post-weblog",
+  "title": "Build Meaning Before Machines: Why Semantics, Ontologies, And Knowledge Graphs Matter For Agentic AI",
+  "author": [
+   {
+    "family": "Evelson",
+    "given": "Boris"
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     6,
+     2
+    ]
+   ]
+  },
+  "container-title": "Forrester Blogs",
+  "URL": "https://www.forrester.com/blogs/build-meaning-before-machines-why-semantics-ontologies-and-knowledge-graphs-matter-for-agentic-ai/",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/evelson2026build",
+   "role": "background",
+   "supports": [
+    "lab:claim/forrester-semantics-first",
+    "lab:claim/position-build-semantics-first"
+   ],
+   "locs": [
+    "#ref-6"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "블로그 원문 대조, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "snowflake2025snowflake",
+  "type": "article-newspaper",
+  "title": "Snowflake, Salesforce, dbt Labs, and More, Revolutionize Data Readiness for AI with Open Semantic Interchange Initiative",
+  "author": [
+   {
+    "literal": "Snowflake"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     9,
+     23
+    ]
+   ]
+  },
+  "container-title": "Business Wire",
+  "URL": "https://finance.yahoo.com/news/snowflake-salesforce-dbt-labs-more-130100051.html",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/snowflake2025snowflake",
+   "role": "primary",
+   "supports": [
+    "lab:claim/osi-launch-2025"
+   ],
+   "locs": [
+    "#ref-7"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "보도자료 게재본 대조, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "constellation2025snowflake",
+  "type": "article-newspaper",
+  "title": "Snowflake, Salesforce, BlackRock lead effort to standardize semantic data",
+  "author": [
+   {
+    "literal": "Constellation Research"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     9
+    ]
+   ]
+  },
+  "container-title": "Constellation Research",
+  "URL": "https://www.constellationr.com/insights/news/snowflake-salesforce-blackrock-lead-effort-standardize-semantic-data",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/constellation2025snowflake",
+   "role": "background",
+   "supports": [
+    "lab:claim/osi-launch-2025"
+   ],
+   "locs": [
+    "#ref-8"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "기사 대조, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "dps2026iso",
+  "type": "dataset",
+  "title": "ISO/FDIS 23726-3 project information",
+  "author": [
+   {
+    "literal": "General Directorate of Standardization (Albania)"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     6,
+     3
+    ]
+   ]
+  },
+  "container-title": "DPS standards catalogue",
+  "URL": "https://dps.gov.al/en/project/show/iso:proj:87560",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/dps2026iso",
+   "role": "primary",
+   "supports": [
+    "lab:claim/iso-23726-3-dis-vote",
+    "lab:claim/iso-23726-3-fdis"
+   ],
+   "locs": [
+    "#ref-9"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "표준 목록 원문 대조, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "iss2026iso",
+  "type": "dataset",
+  "title": "ISO 23726-3 project information",
+  "author": [
+   {
+    "literal": "Institute for Standardization of Serbia"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     10,
+     30
+    ]
+   ]
+  },
+  "container-title": "ISS standards catalogue",
+  "URL": "https://iss.rs/en/project/show/iso:proj:87560",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/iss2026iso",
+   "role": "primary",
+   "supports": [
+    "lab:claim/iso-23726-3-stage-6000"
+   ],
+   "locs": [
+    "#ref-10"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "표준 목록 원문 대조(한 곳), 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "palantir2026q3",
+  "type": "report",
+  "title": "Palantir Reports Q3 2026 results (Form 8-K Exhibit 99.1)",
+  "author": [
+   {
+    "literal": "Palantir Technologies"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     2
+    ]
+   ]
+  },
+  "container-title": "U.S. SEC EDGAR",
+  "URL": "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000045/a2026q3ex991pressrelease.htm",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/palantir2026q3",
+   "role": "data",
+   "supports": [
+    "lab:claim/palantir-q3-2026-revenue",
+    "lab:claim/palantir-seven-quarter-growth"
+   ],
+   "locs": [
+    "#ref-11"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "공시 원문 발췌 대조, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "palantir2026q2",
+  "type": "report",
+  "title": "Palantir Reports Q2 2026 results (Form 8-K Exhibit 99.1)",
+  "author": [
+   {
+    "literal": "Palantir Technologies"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     8,
+     3
+    ]
+   ]
+  },
+  "container-title": "U.S. SEC EDGAR",
+  "URL": "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000039/a2026q2ex991pressrelease.htm",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/palantir2026q2",
+   "role": "data",
+   "supports": [
+    "lab:claim/palantir-seven-quarter-growth"
+   ],
+   "locs": [
+    "#ref-12"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "공시 원문 발췌 대조, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "palantir2026q4",
+  "type": "report",
+  "title": "Palantir Reports Q4 2025 U.S. Comm Revenue Growth of 137% Y/Y and Revenue Growth of 70% Y/Y",
+  "author": [
+   {
+    "literal": "Palantir Technologies"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     2,
+     2
+    ]
+   ]
+  },
+  "container-title": "Business Wire",
+  "URL": "https://www.businesswire.com/news/home/20260201154946/en/",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/palantir2026q4",
+   "role": "data",
+   "supports": [
+    "lab:claim/palantir-seven-quarter-growth"
+   ],
+   "locs": [
+    "#ref-13"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "보도자료 대조, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "palantir2025q2",
+  "type": "report",
+  "title": "Palantir Reports Q2 2025 results (Form 8-K Exhibit 99.1)",
+  "author": [
+   {
+    "literal": "Palantir Technologies"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     8,
+     4
+    ]
+   ]
+  },
+  "container-title": "U.S. SEC EDGAR",
+  "URL": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000105/a2025q2ex991pressrelease.htm",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/palantir2025q2",
+   "role": "data",
+   "supports": [
+    "lab:claim/palantir-seven-quarter-growth"
+   ],
+   "locs": [
+    "#ref-14"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "공시 원문 발췌 대조, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "kalkine2026palantir",
+  "type": "article-newspaper",
+  "title": "Palantir Q3 2026 Revenue $2.31B, Net Income $1.13B (Form 10-Q summary)",
+  "author": [
+   {
+    "literal": "Kalkine"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     11
+    ]
+   ]
+  },
+  "container-title": "Kalkine",
+  "URL": "https://kalkine.com/news/announcements/palantir-q3-2026-revenue-231b-net-income-113b",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/kalkine2026palantir",
+   "role": "data",
+   "supports": [
+    "lab:claim/palantir-seven-quarter-growth"
+   ],
+   "locs": [
+    "#ref-15"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "10-Q 요약 기사 대조, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "constellation2026palantir",
+  "type": "article-newspaper",
+  "title": "Palantir's US commercial, government deals surge in Q1",
+  "author": [
+   {
+    "literal": "Constellation Research"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     5,
+     4
+    ]
+   ]
+  },
+  "container-title": "Constellation Research",
+  "URL": "https://www.constellationr.com/insights/news/palantirs-us-commercial-government-deals-surge-q1",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/constellation2026palantir",
+   "role": "data",
+   "supports": [
+    "lab:claim/palantir-ontology-intermediary",
+    "lab:claim/palantir-q1-2026-revenue",
+    "lab:claim/palantir-seven-quarter-growth"
+   ],
+   "locs": [
+    "#ref-16"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "기사 대조, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "marketbeat2026palantir",
+  "type": "article-newspaper",
+  "title": "Palantir Technologies Q1 Earnings Call Highlights",
+  "author": [
+   {
+    "literal": "MarketBeat"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     5,
+     4
+    ]
+   ]
+  },
+  "container-title": "MarketBeat",
+  "URL": "https://www.marketbeat.com/instant-alerts/palantir-technologies-q1-earnings-call-highlights-2026-05-04/",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/marketbeat2026palantir",
+   "role": "background",
+   "supports": [
+    "lab:claim/palantir-ontology-intermediary",
+    "lab:claim/palantir-q1-2026-revenue"
+   ],
+   "locs": [
+    "#ref-17"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "기사 대조, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "asthagiri2026why",
+  "type": "post-weblog",
+  "title": "Why ontologies matter, why they fail and how to build them anyway",
+  "author": [
+   {
+    "family": "Asthagiri",
+    "given": "Nimisha"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     6,
+     17
+    ]
+   ]
+  },
+  "container-title": "Thoughtworks Insights",
+  "URL": "https://www.thoughtworks.com/insights/blog/data-strategy/why-ontologies-matter-fail-build-anyway",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/asthagiri2026why",
+   "role": "background",
+   "supports": [
+    "lab:claim/position-start-narrow",
+    "lab:claim/thoughtworks-failure-reasons"
+   ],
+   "locs": [
+    "#ref-18"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "블로그 원문 대조, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "singhal2012introducing",
+  "type": "post-weblog",
+  "title": "Introducing the Knowledge Graph: things, not strings",
+  "author": [
+   {
+    "family": "Singhal",
+    "given": "Amit"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2012,
+     5,
+     16
+    ]
+   ]
+  },
+  "container-title": "Google Blog",
+  "URL": "https://blog.google/products/search/introducing-knowledge-graph-things-not/",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/singhal2012introducing",
+   "role": "data",
+   "supports": [
+    "lab:claim/google-kg-2012"
+   ],
+   "locs": [
+    "#ref-19"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "블로그 원문 대조, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "sej2020google",
+  "type": "article-newspaper",
+  "title": "Google's Knowledge Graph: how it works",
+  "author": [
+   {
+    "literal": "Search Engine Journal"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2020,
+     5
+    ]
+   ]
+  },
+  "container-title": "Search Engine Journal",
+  "URL": "https://www.searchenginejournal.com/google-knowledge-graph-works-news/369484/",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/sej2020google",
+   "role": "data",
+   "supports": [
+    "lab:claim/google-kg-2020"
+   ],
+   "locs": [
+    "#ref-20"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "기사 발췌 대조, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "gruber1993translation",
+  "type": "article-journal",
+  "title": "A translation approach to portable ontology specifications",
+  "author": [
+   {
+    "family": "Gruber",
+    "given": "Thomas R."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1993
+    ]
+   ]
+  },
+  "container-title": "Knowledge Acquisition",
+  "URL": "https://doi.org/10.1006/knac.1993.1008",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/gruber1993translation",
+   "role": "background",
+   "supports": [
+    "lab:claim/gruber-1993-definition"
+   ],
+   "locs": [
+    "#ref-21"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": true
+   },
+   "checkedBy": "DOI 해석 확인, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "w3c2009owl",
+  "type": "report",
+  "title": "OWL 2 Web Ontology Language Document Overview",
+  "author": [
+   {
+    "literal": "W3C"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2009,
+     10,
+     27
+    ]
+   ]
+  },
+  "container-title": "W3C Recommendation",
+  "URL": "https://www.w3.org/TR/owl2-overview/",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/w3c2009owl",
+   "role": "primary",
+   "supports": [],
+   "locs": [
+    "#ref-22"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "권고안 원문 대조, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "w3c2017shapes",
+  "type": "report",
+  "title": "Shapes Constraint Language (SHACL)",
+  "author": [
+   {
+    "literal": "W3C"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2017,
+     7,
+     20
+    ]
+   ]
+  },
+  "container-title": "W3C Recommendation",
+  "URL": "https://www.w3.org/TR/shacl/",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/w3c2017shapes",
+   "role": "primary",
+   "supports": [],
+   "locs": [
+    "#ref-23"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "권고안 원문 대조, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "edge2024local",
+  "type": "article",
+  "title": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+  "author": [
+   {
+    "family": "Edge",
+    "given": "Darren"
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024,
+     4,
+     24
+    ]
+   ]
+  },
+  "container-title": "arXiv",
+  "URL": "https://arxiv.org/abs/2404.16130",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/edge2024local",
+   "role": "background",
+   "supports": [
+    "lab:claim/graphrag-2024"
+   ],
+   "locs": [
+    "#ref-24"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "arXiv 원문 대조, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "babaeigiglou2023llms4ol",
+  "type": "article",
+  "title": "LLMs4OL: Large Language Models for Ontology Learning",
+  "author": [
+   {
+    "family": "Babaei Giglou",
+    "given": "Hamed"
+   },
+   {
+    "family": "D'Souza",
+    "given": "Jennifer"
+   },
+   {
+    "family": "Auer",
+    "given": "Sören"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023,
+     7,
+     31
+    ]
+   ]
+  },
+  "container-title": "arXiv",
+  "URL": "https://arxiv.org/abs/2307.16648",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/babaeigiglou2023llms4ol",
+   "role": "background",
+   "supports": [
+    "lab:claim/llms4ol-2023"
+   ],
+   "locs": [
+    "#ref-25"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "arXiv 원문 대조, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "atlan2026why",
+  "type": "webpage",
+  "title": "Why AI Grounding Is Driving Ontology Demand for Enterprise Agents",
+  "author": [
+   {
+    "literal": "Atlan"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "container-title": "Atlan",
+  "URL": "https://atlan.com/know/ai-agent/ontology/ontology-ai-grounding/",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/atlan2026why",
+   "role": "background",
+   "supports": [
+    "lab:claim/atlan-demand-and-cost"
+   ],
+   "locs": [
+    "#ref-26"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "검색 결과 발췌 대조(업계 분석), 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "itonline2026gartner",
+  "type": "article-newspaper",
+  "title": "Gartner: semantics in AI-ready data (2027 prediction)",
+  "author": [
+   {
+    "literal": "IT-Online"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     5
+    ]
+   ]
+  },
+  "container-title": "IT-Online",
+  "URL": "https://it-online.co.za/?p=316078",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/itonline2026gartner",
+   "role": "background",
+   "supports": [
+    "lab:claim/gartner-2027-prediction",
+    "lab:claim/gartner-semantics-agents"
+   ],
+   "locs": [
+    "#ref-27"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "기사 발췌 대조, 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ },
+ {
+  "id": "wikipedia2026knowledge",
+  "type": "entry-encyclopedia",
+  "title": "Knowledge Graph (Google)",
+  "author": [
+   {
+    "literal": "Wikipedia"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "container-title": "Wikipedia",
+  "URL": "https://en.wikipedia.org/wiki/Knowledge_Graph_(Google)",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     13
+    ]
+   ]
+  },
+  "lab": {
+   "work": "lab:work/wikipedia2026knowledge",
+   "role": "data",
+   "supports": [],
+   "locs": [
+    "#ref-28"
+   ],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": true,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "항목 발췌 대조(한 곳), 2026-11-13 접속",
+   "checkedSource": "web"
+  }
+ }
+]

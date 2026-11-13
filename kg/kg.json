@@ -1,0 +1,2614 @@
+{
+ "version": "1.0",
+ "page": "ontology-trend-2026-11",
+ "nodes": [
+  {
+   "id": "lab:concept/ontology",
+   "type": "Concept",
+   "label": {
+    "ko": "온톨로지",
+    "en": "ontology"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#sec-4-1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "graph",
+   "definition": {
+    "ko": "한 분야에 무엇이 있고 서로 어떤 관계인지를 사람과 기계가 같은 뜻으로 읽도록 적어 둔 명세."
+   },
+   "altLabel": {
+    "ko": [
+     "존재론적 명세"
+    ]
+   }
+  },
+  {
+   "id": "lab:concept/semantic-layer",
+   "type": "Concept",
+   "label": {
+    "ko": "시맨틱 계층",
+    "en": "semantic layer"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#g-semantic-layer",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "graph",
+   "definition": {
+    "ko": "데이터 위에 업무 용어와 지표의 정의를 얹어 도구마다 같은 뜻으로 계산하게 하는 층."
+   }
+  },
+  {
+   "id": "lab:concept/knowledge-graph",
+   "type": "Concept",
+   "label": {
+    "ko": "지식 그래프",
+    "en": "knowledge graph"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#g-kg",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "graph",
+   "definition": {
+    "ko": "대상을 점, 관계를 선으로 이은 사실의 망. 온톨로지가 정한 종류와 관계에 맞춰 사실을 채운 것."
+   }
+  },
+  {
+   "id": "lab:concept/llm-agent",
+   "type": "Concept",
+   "label": {
+    "ko": "에이전트",
+    "en": "AI agent"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#g-agent",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language",
+   "definition": {
+    "ko": "목표를 받아 도구를 부르고 여러 단계를 스스로 실행하는 AI 시스템."
+   }
+  },
+  {
+   "id": "lab:concept/context-layer",
+   "type": "Concept",
+   "label": {
+    "ko": "맥락 계층",
+    "en": "context layer"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#pos-a",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "graph",
+   "definition": {
+    "ko": "에이전트가 조직 데이터의 관계와 규칙을 읽도록 데이터·분석 기반에 두는 층(Gartner 권고의 용어)."
+   }
+  },
+  {
+   "id": "lab:concept/ontology-learning",
+   "type": "Concept",
+   "label": {
+    "ko": "온톨로지 학습",
+    "en": "ontology learning"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#sec-4-2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "graph",
+   "definition": {
+    "ko": "문서와 데이터에서 용어·계층·관계를 자동 또는 반자동으로 뽑아 온톨로지를 만드는 일."
+   }
+  },
+  {
+   "id": "lab:concept/hallucination",
+   "type": "Concept",
+   "label": {
+    "ko": "환각",
+    "en": "hallucination"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#sec-4-3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "responsible"
+  },
+  {
+   "id": "lab:analogy/ontology-store-map",
+   "type": "Analogy",
+   "label": {
+    "ko": "마트 진열 안내도",
+    "en": "store floor map"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#sec-4-analogy",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "graph",
+   "definition": {
+    "ko": "\"요거트는 유제품, 유제품은 냉장 코너\"처럼 한 줄을 더하면 자리와 규칙이 따라오는 안내도."
+   }
+  },
+  {
+   "id": "lab:method/rag",
+   "type": "Method",
+   "label": {
+    "ko": "RAG (검색 증강 생성)",
+    "en": "retrieval-augmented generation"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#g-graphrag",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:method/graphrag",
+   "type": "Method",
+   "label": {
+    "ko": "GraphRAG",
+    "en": "GraphRAG"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#sec-4-2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language",
+   "definition": {
+    "ko": "문서에서 지식 그래프를 만든 뒤 그 그래프를 근거로 답을 찾는 검색 증강 생성 방식."
+   }
+  },
+  {
+   "id": "lab:method/fabric-iq-ontology",
+   "type": "Method",
+   "label": {
+    "ko": "Fabric IQ 온톨로지",
+    "en": "Microsoft Fabric IQ Ontology"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#tl-2025-11-18",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "graph",
+   "definition": {
+    "ko": "업무의 대상·관계·속성·규칙·행동을 모델로 정의하는 Microsoft Fabric IQ의 기능."
+   }
+  },
+  {
+   "id": "lab:method/palantir-ontology",
+   "type": "Method",
+   "label": {
+    "ko": "Palantir 온톨로지(AIP)",
+    "en": "Palantir Ontology (AIP)"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#tl-2026-05-04",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "graph",
+   "definition": {
+    "ko": "Palantir가 AI 운영의 중간 표현이라고 설명하는 자사 플랫폼의 온톨로지 계층."
+   }
+  },
+  {
+   "id": "lab:method/llm-ontology-drafting",
+   "type": "Method",
+   "label": {
+    "ko": "LLM으로 온톨로지 초안 쓰기",
+    "en": "LLM-assisted ontology drafting"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#sec-4-3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "graph",
+   "definition": {
+    "ko": "기존 데이터 모델·문서를 LLM이 읽어 대상·관계·규칙을 먼저 제안하고 사람이 검토하는 방식."
+   }
+  },
+  {
+   "id": "lab:method/minimum-viable-ontology",
+   "type": "Method",
+   "label": {
+    "ko": "한 사용 사례로 좁혀 시작하기",
+    "en": "minimum viable ontology"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#pos-b",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "graph",
+   "definition": {
+    "ko": "수익이 큰 한 가지 문제에 맞춘 최소 온톨로지를 먼저 만들고, 가치를 보인 뒤 넓히는 방식(Thoughtworks 권고)."
+   }
+  },
+  {
+   "id": "lab:limitation/manual-ontology-cost",
+   "type": "Limitation",
+   "label": {
+    "ko": "수작업 구축 비용",
+    "en": "cost of manual ontology building"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#sec-4-3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:limitation/ontology-maintenance",
+   "type": "Limitation",
+   "label": {
+    "ko": "유지보수 문제",
+    "en": "ontology maintenance problem"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#pos-b",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "graph",
+   "definition": {
+    "ko": "규정·조직·제품이 바뀌는 속도를 수작업 모델이 따라가지 못해 모델이 낡는 문제."
+   }
+  },
+  {
+   "id": "lab:limitation/scope-creep",
+   "type": "Limitation",
+   "label": {
+    "ko": "범위 확장",
+    "en": "scope creep"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#pos-b",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "graph",
+   "definition": {
+    "ko": "전체 분야를 다 모델링하려다 가치를 보이기 전에 사업이 멈추는 문제."
+   }
+  },
+  {
+   "id": "lab:limitation/translation-gap",
+   "type": "Limitation",
+   "label": {
+    "ko": "번역 간극",
+    "en": "translation gap"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#tl-2026-06-17",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "graph",
+   "definition": {
+    "ko": "모델링 전문가와 업무 전문가가 서로의 지식을 옮기며 세부가 빠지는 문제."
+   }
+  },
+  {
+   "id": "lab:limitation/ai-draft-incompleteness",
+   "type": "Limitation",
+   "label": {
+    "ko": "AI 초안의 불완전성",
+    "en": "incompleteness of AI-generated ontology drafts"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#pos-b",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "graph",
+   "definition": {
+    "ko": "AI가 기존 데이터에서 만든 초안이 불완전하거나 칸막이식일 수 있다는 지적(Gartner 첫 논평)."
+   }
+  },
+  {
+   "id": "lab:standard/owl2",
+   "type": "Standard",
+   "label": {
+    "ko": "OWL 2",
+    "en": "OWL 2 Web Ontology Language"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#sec-4-2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2009-10-27",
+   "jurisdiction": "W3C",
+   "family": "graph"
+  },
+  {
+   "id": "lab:standard/shacl",
+   "type": "Standard",
+   "label": {
+    "ko": "SHACL",
+    "en": "Shapes Constraint Language"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#sec-4-2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2017-07-20",
+   "jurisdiction": "W3C",
+   "family": "graph"
+  },
+  {
+   "id": "lab:standard/iso-23726-3",
+   "type": "Standard",
+   "label": {
+    "ko": "ISO 23726-3 산업 데이터 온톨로지(IDO)",
+    "en": "ISO 23726-3 Industrial Data Ontology"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#tl-2026-06-03",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2026-06-03",
+   "jurisdiction": "ISO/TC 184/SC 4",
+   "family": "graph"
+  },
+  {
+   "id": "lab:standard/open-semantic-interchange",
+   "type": "Standard",
+   "label": {
+    "ko": "Open Semantic Interchange (OSI)",
+    "en": "Open Semantic Interchange"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#tl-2025-09-23",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2025-09-23",
+   "jurisdiction": "업계 공동 규격 (Snowflake 외)",
+   "family": "graph"
+  },
+  {
+   "id": "lab:metric/palantir-quarterly-revenue",
+   "type": "Metric",
+   "label": {
+    "ko": "Palantir 분기 매출",
+    "en": "Palantir quarterly revenue"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#fig-5-1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "graph",
+   "definition": {
+    "ko": "Palantir가 분기마다 공시하는 매출(단위: 10억 달러)."
+   }
+  },
+  {
+   "id": "lab:metric/agentic-ai-accuracy",
+   "type": "Metric",
+   "label": {
+    "ko": "에이전트형 AI 정확도",
+    "en": "agentic AI accuracy"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#kpi-gartner",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "evaluation"
+  },
+  {
+   "id": "lab:metric/kg-fact-count",
+   "type": "Metric",
+   "label": {
+    "ko": "지식 그래프 사실 수",
+    "en": "number of facts in a knowledge graph"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#tbl-5-2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/osi-launch-2025",
+   "type": "Claim",
+   "label": {
+    "ko": "Snowflake 외 기업들이 시맨틱 메타데이터 공동 규격 OSI를 시작했다",
+    "en": "Snowflake and partners launched the Open Semantic Interchange initiative"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#tl-2025-09-23",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2025-09-23",
+   "source": [
+    {
+     "ref": "snowflake2025snowflake",
+     "loc": ""
+    },
+    {
+     "ref": "constellation2025snowflake",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/fabric-iq-announced-2025",
+   "type": "Claim",
+   "label": {
+    "ko": "Microsoft가 Ignite 2025에서 Ontology 항목을 핵심으로 한 Fabric IQ를 발표했다",
+    "en": "Microsoft announced Fabric IQ with an Ontology item at Ignite 2025"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#tl-2025-11-18",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2025-11-18",
+   "source": [
+    {
+     "ref": "microsoft2025introducing",
+     "loc": ""
+    },
+    {
+     "ref": "itmedia2025ignite",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/iso-23726-3-dis-vote",
+   "type": "Claim",
+   "label": {
+    "ko": "ISO/DIS 23726-3 투표가 마감됐다(단계 40.60)",
+    "en": "Voting on ISO/DIS 23726-3 closed (stage 40.60)"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#tl-2025-12-18",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2025-12-18",
+   "source": [
+    {
+     "ref": "dps2026iso",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/palantir-q1-2026-revenue",
+   "type": "Claim",
+   "label": {
+    "ko": "Palantir 2026년 1분기 매출은 16억 3,300만 달러로 전년 대비 85% 늘었다",
+    "en": "Palantir Q1 2026 revenue was $1.633B, up 85% YoY"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#tl-2026-05-04",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2026-05-04",
+   "source": [
+    {
+     "ref": "constellation2026palantir",
+     "loc": ""
+    },
+    {
+     "ref": "marketbeat2026palantir",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/palantir-ontology-intermediary",
+   "type": "Claim",
+   "label": {
+    "ko": "Palantir 경영진은 온톨로지를 AI 운영의 중간 표현이라고 설명했다",
+    "en": "Palantir management described the ontology as the intermediary representation for operational AI"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#tl-2026-05-04",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2026-05-04",
+   "source": [
+    {
+     "ref": "constellation2026palantir",
+     "loc": ""
+    },
+    {
+     "ref": "marketbeat2026palantir",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/gartner-semantics-agents",
+   "type": "Claim",
+   "label": {
+    "ko": "Gartner는 시맨틱스가 부족하면 AI 에이전트가 부정확해지고 지출이 낭비된다고 밝혔다",
+    "en": "Gartner said lack of semantics causes inaccurate AI agents and wasted spending"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#tl-2026-05-11",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2026-05-11",
+   "source": [
+    {
+     "ref": "gartner2026semantics",
+     "loc": ""
+    },
+    {
+     "ref": "itonline2026gartner",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/gartner-2027-prediction",
+   "type": "Claim",
+   "label": {
+    "ko": "Gartner는 2027년까지 시맨틱스를 우선한 조직의 에이전트 정확도가 최대 80% 오르고 비용이 최대 60% 준다고 예측했다",
+    "en": "Gartner predicted up to 80% accuracy gain and 60% cost reduction by 2027"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#kpi-gartner",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2026-05-11",
+   "source": [
+    {
+     "ref": "gartner2026semantics",
+     "loc": ""
+    },
+    {
+     "ref": "itonline2026gartner",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/fabric-iq-ga-2026",
+   "type": "Claim",
+   "label": {
+    "ko": "Microsoft가 Fabric IQ를 정식 출시했고 온톨로지 기능은 몇 달 안에 정식 출시될 예정이라고 밝혔다",
+    "en": "Microsoft made Fabric IQ generally available; ontologies expected to be GA in coming months"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#tl-2026-06-02",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2026-06-02",
+   "source": [
+    {
+     "ref": "microsoft2026build",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/forrester-semantics-first",
+   "type": "Claim",
+   "label": {
+    "ko": "Forrester는 시맨틱 계층에서 시작해 지식 그래프로 넓히라고 권고했다",
+    "en": "Forrester recommended starting with semantics and evolving to knowledge graphs"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#tl-2026-06-02-forrester",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2026-06-02",
+   "source": [
+    {
+     "ref": "evelson2026build",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/iso-23726-3-fdis",
+   "type": "Claim",
+   "label": {
+    "ko": "ISO 23726-3이 최종안 승인 단계(50.00)로 등록됐다",
+    "en": "ISO 23726-3 registered as FDIS (stage 50.00)"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#tl-2026-06-03",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2026-06-03",
+   "source": [
+    {
+     "ref": "dps2026iso",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/thoughtworks-failure-reasons",
+   "type": "Claim",
+   "label": {
+    "ko": "Thoughtworks는 번역 간극·범위 확장·유지보수를 온톨로지 사업의 실패 원인으로 들었다",
+    "en": "Thoughtworks named the translation gap, scope creep and maintenance as reasons ontology programs fail"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#tl-2026-06-17",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2026-06-17",
+   "source": [
+    {
+     "ref": "asthagiri2026why",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/gartner-first-take-fabric",
+   "type": "Claim",
+   "label": {
+    "ko": "Gartner 첫 논평은 AI가 만든 온톨로지 초안에 업무 전문가 검증이 필요하다고 적었다",
+    "en": "Gartner First Take said SMEs remain essential to validate AI-generated ontology proposals"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#tl-2026-09-29",
+   "level": 3,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2026-09-29",
+   "source": [
+    {
+     "ref": "gartner2026first",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/iso-23726-3-stage-6000",
+   "type": "Claim",
+   "label": {
+    "ko": "한 표준 목록은 ISO 23726-3을 발행 준비 단계(60.00)로 표시한다",
+    "en": "One catalogue lists ISO 23726-3 at stage 60.00 (under publication)"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#tl-2026-10-30",
+   "level": 3,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2026-10-30",
+   "source": [
+    {
+     "ref": "iss2026iso",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/palantir-q3-2026-revenue",
+   "type": "Claim",
+   "label": {
+    "ko": "Palantir 2026년 3분기 매출은 23억 1,300만 달러로 전년 대비 96% 늘었다",
+    "en": "Palantir Q3 2026 revenue was $2.313B, up 96% YoY"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#tl-2026-11-02",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2026-11-02",
+   "source": [
+    {
+     "ref": "palantir2026q3",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/palantir-seven-quarter-growth",
+   "type": "Claim",
+   "label": {
+    "ko": "Palantir 분기 매출은 2025년 1분기 0.884에서 2026년 3분기 2.313(10억 달러)으로 늘었다",
+    "en": "Palantir quarterly revenue rose from $0.884B (Q1 2025) to $2.313B (Q3 2026)"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#fig-5-1",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2026-11-02",
+   "source": [
+    {
+     "ref": "palantir2026q3",
+     "loc": ""
+    },
+    {
+     "ref": "palantir2026q2",
+     "loc": ""
+    },
+    {
+     "ref": "palantir2026q4",
+     "loc": ""
+    },
+    {
+     "ref": "palantir2025q2",
+     "loc": ""
+    },
+    {
+     "ref": "kalkine2026palantir",
+     "loc": ""
+    },
+    {
+     "ref": "constellation2026palantir",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/google-kg-2012",
+   "type": "Claim",
+   "label": {
+    "ko": "Google 지식 그래프는 2012년 출시 때 대상 5억 개 이상, 사실 35억 개 이상이었다",
+    "en": "Google Knowledge Graph launched with 500M+ objects and 3.5B+ facts"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#tbl-5-2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2012-05-16",
+   "source": [
+    {
+     "ref": "singhal2012introducing",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/google-kg-2020",
+   "type": "Claim",
+   "label": {
+    "ko": "Google 지식 그래프는 2020년 5월 대상 50억 개, 사실 5,000억 개 규모였다",
+    "en": "Google Knowledge Graph held 500B facts about 5B entities in May 2020"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#tbl-5-2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2020-05",
+   "source": [
+    {
+     "ref": "sej2020google",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/gruber-1993-definition",
+   "type": "Claim",
+   "label": {
+    "ko": "Gruber(1993)는 온톨로지를 개념화의 명시적 명세로 정의했다",
+    "en": "Gruber (1993) defined an ontology as an explicit specification of a conceptualization"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#sec-4-1",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "1993",
+   "source": [
+    {
+     "ref": "gruber1993translation",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/graphrag-2024",
+   "type": "Claim",
+   "label": {
+    "ko": "Microsoft 연구진이 GraphRAG를 발표했다",
+    "en": "Microsoft researchers introduced GraphRAG"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#sec-4-2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2024-04-24",
+   "source": [
+    {
+     "ref": "edge2024local",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/llms4ol-2023",
+   "type": "Claim",
+   "label": {
+    "ko": "LLMs4OL 연구가 LLM으로 용어 분류·계층 발견·관계 추출을 시험했다",
+    "en": "LLMs4OL tested LLMs on term typing, taxonomy discovery and relation extraction"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#sec-4-2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2023-07-31",
+   "source": [
+    {
+     "ref": "babaeigiglou2023llms4ol",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/atlan-demand-and-cost",
+   "type": "Claim",
+   "label": {
+    "ko": "Atlan은 에이전트가 정의의 수요를 늘리고 LLM이 초안 비용을 줄였다고 설명했다",
+    "en": "Atlan said agents raised demand for definitions while LLMs cut drafting cost"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#sec-4-3",
+   "level": 3,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2026",
+   "source": [
+    {
+     "ref": "atlan2026why",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/position-build-semantics-first",
+   "type": "Claim",
+   "label": {
+    "ko": "입장 A: 에이전트의 기반으로 먼저 갖춰야 한다",
+    "en": "Position A: build the semantic foundation first"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#pos-a",
+   "level": 3,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2026-11-13",
+   "source": [
+    {
+     "ref": "gartner2026semantics",
+     "loc": ""
+    },
+    {
+     "ref": "evelson2026build",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:claim/position-start-narrow",
+   "type": "Claim",
+   "label": {
+    "ko": "입장 B: 좁게 시작하고 유지 비용을 따져야 한다",
+    "en": "Position B: start narrow and weigh maintenance cost"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#pos-b",
+   "level": 3,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "asOf": "2026-11-13",
+   "source": [
+    {
+     "ref": "asthagiri2026why",
+     "loc": ""
+    },
+    {
+     "ref": "gartner2026first",
+     "loc": ""
+    }
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:question/gartner-prediction-validity",
+   "type": "Question",
+   "label": {
+    "ko": "2027년 예측이 맞을지",
+    "en": "Will the 2027 Gartner prediction hold?"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#q-gartner",
+   "level": 4,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:question/iso-23726-3-publication-date",
+   "type": "Question",
+   "label": {
+    "ko": "ISO 23726-3의 발행일",
+    "en": "When is ISO 23726-3 published?"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#q-iso",
+   "level": 4,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:question/fabric-iq-ontology-ga-date",
+   "type": "Question",
+   "label": {
+    "ko": "Fabric IQ 온톨로지의 정식 출시일",
+    "en": "When do Fabric IQ ontologies become GA?"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#q-fabric",
+   "level": 4,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:question/revenue-ontology-causality",
+   "type": "Question",
+   "label": {
+    "ko": "실적과 온톨로지 기능의 인과관계",
+    "en": "Is revenue growth caused by ontology features?"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#q-causal",
+   "level": 4,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:question/osi-adoption",
+   "type": "Question",
+   "label": {
+    "ko": "OSI 규격의 실제 채택 범위",
+    "en": "How widely is OSI adopted?"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#q-osi",
+   "level": 4,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/gartner2026semantics",
+   "type": "Work",
+   "label": {
+    "ko": "Gartner (2026) Gartner Newsroom",
+    "en": "Gartner Says Lack of Semantics Causes Inaccurate AI Agents and Wasted Spending"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-1",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/microsoft2025introducing",
+   "type": "Work",
+   "label": {
+    "ko": "Microsoft (2025) Microsoft Fabric Updates Blog",
+    "en": "From Data Platform to Intelligence Platform: Introducing Microsoft Fabric IQ"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-2",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/itmedia2025ignite",
+   "type": "Work",
+   "label": {
+    "ko": "@IT (ITmedia) (2025) @IT",
+    "en": "「AIエージェントには業務の文脈が必要不可欠」 Microsoftが年次イベントでWork IQなどを発表"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-3",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/microsoft2026build",
+   "type": "Work",
+   "label": {
+    "ko": "Microsoft (2026) Microsoft Azure Blog",
+    "en": "Microsoft Build 2026: Building agentic apps with Microsoft Fabric and Microsoft Databases"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-4",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/gartner2026first",
+   "type": "Work",
+   "label": {
+    "ko": "Gartner (2026) Gartner First Takes",
+    "en": "First Take: Microsoft's Fabric IQ Updates Make Ontologies Operational"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-5",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/evelson2026build",
+   "type": "Work",
+   "label": {
+    "ko": "Evelson (2026) Forrester Blogs",
+    "en": "Build Meaning Before Machines: Why Semantics, Ontologies, And Knowledge Graphs Matter For Agentic AI"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-6",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/snowflake2025snowflake",
+   "type": "Work",
+   "label": {
+    "ko": "Snowflake (2025) Business Wire",
+    "en": "Snowflake, Salesforce, dbt Labs, and More, Revolutionize Data Readiness for AI with Open Semantic Interchange Initiative"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-7",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/constellation2025snowflake",
+   "type": "Work",
+   "label": {
+    "ko": "Constellation Research (2025) Constellation Research",
+    "en": "Snowflake, Salesforce, BlackRock lead effort to standardize semantic data"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-8",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/dps2026iso",
+   "type": "Work",
+   "label": {
+    "ko": "General Directorate of Standardization (Albania) (2026) DPS standards catalogue",
+    "en": "ISO/FDIS 23726-3 project information"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-9",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/iss2026iso",
+   "type": "Work",
+   "label": {
+    "ko": "Institute for Standardization of Serbia (2026) ISS standards catalogue",
+    "en": "ISO 23726-3 project information"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-10",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/palantir2026q3",
+   "type": "Work",
+   "label": {
+    "ko": "Palantir Technologies (2026) U.S. SEC EDGAR",
+    "en": "Palantir Reports Q3 2026 results (Form 8-K Exhibit 99.1)"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-11",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/palantir2026q2",
+   "type": "Work",
+   "label": {
+    "ko": "Palantir Technologies (2026) U.S. SEC EDGAR",
+    "en": "Palantir Reports Q2 2026 results (Form 8-K Exhibit 99.1)"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-12",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/palantir2026q4",
+   "type": "Work",
+   "label": {
+    "ko": "Palantir Technologies (2026) Business Wire",
+    "en": "Palantir Reports Q4 2025 U.S. Comm Revenue Growth of 137% Y/Y and Revenue Growth of 70% Y/Y"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-13",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/palantir2025q2",
+   "type": "Work",
+   "label": {
+    "ko": "Palantir Technologies (2025) U.S. SEC EDGAR",
+    "en": "Palantir Reports Q2 2025 results (Form 8-K Exhibit 99.1)"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-14",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/kalkine2026palantir",
+   "type": "Work",
+   "label": {
+    "ko": "Kalkine (2026) Kalkine",
+    "en": "Palantir Q3 2026 Revenue $2.31B, Net Income $1.13B (Form 10-Q summary)"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-15",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/constellation2026palantir",
+   "type": "Work",
+   "label": {
+    "ko": "Constellation Research (2026) Constellation Research",
+    "en": "Palantir's US commercial, government deals surge in Q1"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-16",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/marketbeat2026palantir",
+   "type": "Work",
+   "label": {
+    "ko": "MarketBeat (2026) MarketBeat",
+    "en": "Palantir Technologies Q1 Earnings Call Highlights"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-17",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/asthagiri2026why",
+   "type": "Work",
+   "label": {
+    "ko": "Asthagiri (2026) Thoughtworks Insights",
+    "en": "Why ontologies matter, why they fail and how to build them anyway"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-18",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/singhal2012introducing",
+   "type": "Work",
+   "label": {
+    "ko": "Singhal (2012) Google Blog",
+    "en": "Introducing the Knowledge Graph: things, not strings"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-19",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/sej2020google",
+   "type": "Work",
+   "label": {
+    "ko": "Search Engine Journal (2020) Search Engine Journal",
+    "en": "Google's Knowledge Graph: how it works"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-20",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/gruber1993translation",
+   "type": "Work",
+   "label": {
+    "ko": "Gruber (1993) Knowledge Acquisition",
+    "en": "A translation approach to portable ontology specifications"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-21",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/edge2024local",
+   "type": "Work",
+   "label": {
+    "ko": "Edge (2024) arXiv",
+    "en": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-24",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/babaeigiglou2023llms4ol",
+   "type": "Work",
+   "label": {
+    "ko": "Babaei Giglou (2023) arXiv",
+    "en": "LLMs4OL: Large Language Models for Ontology Learning"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-25",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/atlan2026why",
+   "type": "Work",
+   "label": {
+    "ko": "Atlan (2026) Atlan",
+    "en": "Why AI Grounding Is Driving Ontology Demand for Enterprise Agents"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-26",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  },
+  {
+   "id": "lab:work/itonline2026gartner",
+   "type": "Work",
+   "label": {
+    "ko": "IT-Online (2026) IT-Online",
+    "en": "Gartner: semantics in AI-ready data (2027 prediction)"
+   },
+   "page": "ontology-trend-2026-11",
+   "anchor": "#ref-27",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "family": "graph"
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:claim/osi-launch-2025",
+   "p": "lab:assertedIn",
+   "o": "lab:work/snowflake2025snowflake",
+   "anchor": "#tl-2025-09-23",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/osi-launch-2025",
+   "p": "lab:assertedIn",
+   "o": "lab:work/constellation2025snowflake",
+   "anchor": "#tl-2025-09-23",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/fabric-iq-announced-2025",
+   "p": "lab:assertedIn",
+   "o": "lab:work/microsoft2025introducing",
+   "anchor": "#tl-2025-11-18",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/fabric-iq-announced-2025",
+   "p": "lab:assertedIn",
+   "o": "lab:work/itmedia2025ignite",
+   "anchor": "#tl-2025-11-18",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/iso-23726-3-dis-vote",
+   "p": "lab:assertedIn",
+   "o": "lab:work/dps2026iso",
+   "anchor": "#tl-2025-12-18",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/palantir-q1-2026-revenue",
+   "p": "lab:assertedIn",
+   "o": "lab:work/constellation2026palantir",
+   "anchor": "#tl-2026-05-04",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/palantir-q1-2026-revenue",
+   "p": "lab:assertedIn",
+   "o": "lab:work/marketbeat2026palantir",
+   "anchor": "#tl-2026-05-04",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/palantir-ontology-intermediary",
+   "p": "lab:assertedIn",
+   "o": "lab:work/constellation2026palantir",
+   "anchor": "#tl-2026-05-04",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/palantir-ontology-intermediary",
+   "p": "lab:assertedIn",
+   "o": "lab:work/marketbeat2026palantir",
+   "anchor": "#tl-2026-05-04",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/gartner-semantics-agents",
+   "p": "lab:assertedIn",
+   "o": "lab:work/gartner2026semantics",
+   "anchor": "#tl-2026-05-11",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/gartner-semantics-agents",
+   "p": "lab:assertedIn",
+   "o": "lab:work/itonline2026gartner",
+   "anchor": "#tl-2026-05-11",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/gartner-2027-prediction",
+   "p": "lab:assertedIn",
+   "o": "lab:work/gartner2026semantics",
+   "anchor": "#kpi-gartner",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/gartner-2027-prediction",
+   "p": "lab:assertedIn",
+   "o": "lab:work/itonline2026gartner",
+   "anchor": "#kpi-gartner",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/fabric-iq-ga-2026",
+   "p": "lab:assertedIn",
+   "o": "lab:work/microsoft2026build",
+   "anchor": "#tl-2026-06-02",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/forrester-semantics-first",
+   "p": "lab:assertedIn",
+   "o": "lab:work/evelson2026build",
+   "anchor": "#tl-2026-06-02-forrester",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/iso-23726-3-fdis",
+   "p": "lab:assertedIn",
+   "o": "lab:work/dps2026iso",
+   "anchor": "#tl-2026-06-03",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/thoughtworks-failure-reasons",
+   "p": "lab:assertedIn",
+   "o": "lab:work/asthagiri2026why",
+   "anchor": "#tl-2026-06-17",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/gartner-first-take-fabric",
+   "p": "lab:assertedIn",
+   "o": "lab:work/gartner2026first",
+   "anchor": "#tl-2026-09-29",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:claim/iso-23726-3-stage-6000",
+   "p": "lab:assertedIn",
+   "o": "lab:work/iss2026iso",
+   "anchor": "#tl-2026-10-30",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:claim/palantir-q3-2026-revenue",
+   "p": "lab:assertedIn",
+   "o": "lab:work/palantir2026q3",
+   "anchor": "#tl-2026-11-02",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/palantir-seven-quarter-growth",
+   "p": "lab:assertedIn",
+   "o": "lab:work/palantir2026q3",
+   "anchor": "#fig-5-1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/palantir-seven-quarter-growth",
+   "p": "lab:assertedIn",
+   "o": "lab:work/palantir2026q2",
+   "anchor": "#fig-5-1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/palantir-seven-quarter-growth",
+   "p": "lab:assertedIn",
+   "o": "lab:work/palantir2026q4",
+   "anchor": "#fig-5-1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/palantir-seven-quarter-growth",
+   "p": "lab:assertedIn",
+   "o": "lab:work/palantir2025q2",
+   "anchor": "#fig-5-1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/palantir-seven-quarter-growth",
+   "p": "lab:assertedIn",
+   "o": "lab:work/kalkine2026palantir",
+   "anchor": "#fig-5-1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/palantir-seven-quarter-growth",
+   "p": "lab:assertedIn",
+   "o": "lab:work/constellation2026palantir",
+   "anchor": "#fig-5-1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/google-kg-2012",
+   "p": "lab:assertedIn",
+   "o": "lab:work/singhal2012introducing",
+   "anchor": "#tbl-5-2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/google-kg-2020",
+   "p": "lab:assertedIn",
+   "o": "lab:work/sej2020google",
+   "anchor": "#tbl-5-2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/gruber-1993-definition",
+   "p": "lab:assertedIn",
+   "o": "lab:work/gruber1993translation",
+   "anchor": "#sec-4-1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/graphrag-2024",
+   "p": "lab:assertedIn",
+   "o": "lab:work/edge2024local",
+   "anchor": "#sec-4-2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/llms4ol-2023",
+   "p": "lab:assertedIn",
+   "o": "lab:work/babaeigiglou2023llms4ol",
+   "anchor": "#sec-4-2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/atlan-demand-and-cost",
+   "p": "lab:assertedIn",
+   "o": "lab:work/atlan2026why",
+   "anchor": "#sec-4-3",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:claim/position-build-semantics-first",
+   "p": "lab:assertedIn",
+   "o": "lab:work/gartner2026semantics",
+   "anchor": "#pos-a",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:claim/position-build-semantics-first",
+   "p": "lab:assertedIn",
+   "o": "lab:work/evelson2026build",
+   "anchor": "#pos-a",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:claim/position-start-narrow",
+   "p": "lab:assertedIn",
+   "o": "lab:work/asthagiri2026why",
+   "anchor": "#pos-b",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:claim/position-start-narrow",
+   "p": "lab:assertedIn",
+   "o": "lab:work/gartner2026first",
+   "anchor": "#pos-b",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:concept/ontology",
+   "p": "lab:broader",
+   "o": "lab:topic/knowledge-graph",
+   "anchor": "#sec-4-1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/semantic-layer",
+   "p": "lab:broader",
+   "o": "lab:topic/knowledge-graph",
+   "anchor": "#g-semantic-layer",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/knowledge-graph",
+   "p": "lab:broader",
+   "o": "lab:topic/knowledge-graph",
+   "anchor": "#g-kg",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/llm-agent",
+   "p": "lab:broader",
+   "o": "lab:topic/pretrained-lm",
+   "anchor": "#g-agent",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/context-layer",
+   "p": "lab:broader",
+   "o": "lab:topic/knowledge-graph",
+   "anchor": "#pos-a",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/ontology-learning",
+   "p": "lab:broader",
+   "o": "lab:topic/knowledge-graph",
+   "anchor": "#sec-4-2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/ontology-learning",
+   "p": "lab:broader",
+   "o": "lab:topic/pretrained-lm",
+   "anchor": "#sec-4-2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/hallucination",
+   "p": "lab:broader",
+   "o": "lab:topic/ai-safety",
+   "anchor": "#sec-4-3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/rag",
+   "p": "lab:broader",
+   "o": "lab:topic/rag",
+   "anchor": "#g-graphrag",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/graphrag",
+   "p": "lab:broader",
+   "o": "lab:topic/rag",
+   "anchor": "#sec-4-2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/graphrag",
+   "p": "lab:broader",
+   "o": "lab:topic/knowledge-graph",
+   "anchor": "#sec-4-2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/fabric-iq-ontology",
+   "p": "lab:broader",
+   "o": "lab:topic/knowledge-graph",
+   "anchor": "#tl-2025-11-18",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/palantir-ontology",
+   "p": "lab:broader",
+   "o": "lab:topic/knowledge-graph",
+   "anchor": "#tl-2026-05-04",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/llm-ontology-drafting",
+   "p": "lab:broader",
+   "o": "lab:topic/prompting",
+   "anchor": "#sec-4-3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/llm-ontology-drafting",
+   "p": "lab:broader",
+   "o": "lab:topic/knowledge-graph",
+   "anchor": "#sec-4-3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/minimum-viable-ontology",
+   "p": "lab:broader",
+   "o": "lab:topic/knowledge-graph",
+   "anchor": "#pos-b",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/manual-ontology-cost",
+   "p": "lab:broader",
+   "o": "lab:topic/knowledge-graph",
+   "anchor": "#sec-4-3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/ontology-maintenance",
+   "p": "lab:broader",
+   "o": "lab:topic/knowledge-graph",
+   "anchor": "#pos-b",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/scope-creep",
+   "p": "lab:broader",
+   "o": "lab:topic/knowledge-graph",
+   "anchor": "#pos-b",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/translation-gap",
+   "p": "lab:broader",
+   "o": "lab:topic/knowledge-graph",
+   "anchor": "#tl-2026-06-17",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/ai-draft-incompleteness",
+   "p": "lab:broader",
+   "o": "lab:topic/knowledge-graph",
+   "anchor": "#pos-b",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:analogy/ontology-store-map",
+   "p": "lab:broader",
+   "o": "lab:topic/knowledge-graph",
+   "anchor": "#sec-4-analogy",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/ontology",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/knowledge-graph",
+   "anchor": "#g-kg",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/ontology",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/semantic-layer",
+   "anchor": "#g-semantic-layer",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:concept/knowledge-graph",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/graphrag",
+   "anchor": "#sec-4-2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/rag",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/graphrag",
+   "anchor": "#g-graphrag",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/graphrag",
+   "p": "lab:contrastsWith",
+   "o": "lab:method/rag",
+   "anchor": "#g-graphrag",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/semantic-layer",
+   "p": "lab:contrastsWith",
+   "o": "lab:concept/knowledge-graph",
+   "anchor": "#tl-2026-06-02-forrester",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:analogy/ontology-store-map",
+   "p": "lab:analogyOf",
+   "o": "lab:concept/ontology",
+   "anchor": "#sec-4-analogy",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/semantic-layer",
+   "p": "lab:partOf",
+   "o": "lab:concept/context-layer",
+   "anchor": "#pos-a",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:concept/ontology",
+   "p": "lab:partOf",
+   "o": "lab:concept/context-layer",
+   "anchor": "#pos-a",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:method/fabric-iq-ontology",
+   "p": "lab:partOf",
+   "o": "lab:concept/context-layer",
+   "anchor": "#tl-2025-11-18",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:concept/ontology",
+   "p": "lab:governedBy",
+   "o": "lab:standard/owl2",
+   "anchor": "#sec-4-2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/knowledge-graph",
+   "p": "lab:governedBy",
+   "o": "lab:standard/shacl",
+   "anchor": "#sec-4-2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:standard/iso-23726-3",
+   "p": "lab:governedBy",
+   "o": "lab:standard/owl2",
+   "anchor": "#tl-2026-06-03",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:standard/iso-23726-3",
+   "p": "lab:partOf",
+   "o": "lab:concept/ontology",
+   "anchor": "#tl-2026-06-03",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:standard/open-semantic-interchange",
+   "p": "lab:partOf",
+   "o": "lab:concept/semantic-layer",
+   "anchor": "#tl-2025-09-23",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/fabric-iq-ontology",
+   "p": "lab:partOf",
+   "o": "lab:concept/ontology",
+   "anchor": "#tl-2025-11-18",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/palantir-ontology",
+   "p": "lab:partOf",
+   "o": "lab:concept/ontology",
+   "anchor": "#tl-2026-05-04",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/llm-agent",
+   "p": "lab:hasLimitation",
+   "o": "lab:concept/hallucination",
+   "anchor": "#sec-4-3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/hallucination",
+   "p": "lab:addressedBy",
+   "o": "lab:concept/context-layer",
+   "anchor": "#sec-4-3",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:concept/ontology",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/manual-ontology-cost",
+   "anchor": "#sec-4-3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/manual-ontology-cost",
+   "p": "lab:addressedBy",
+   "o": "lab:method/llm-ontology-drafting",
+   "anchor": "#sec-4-3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/ontology-learning",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/llm-ontology-drafting",
+   "anchor": "#sec-4-3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/llm-ontology-drafting",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/ai-draft-incompleteness",
+   "anchor": "#pos-b",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/llm-ontology-drafting",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/ontology-maintenance",
+   "anchor": "#sec-4-3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/ontology",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/ontology-maintenance",
+   "anchor": "#pos-b",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/ontology",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/scope-creep",
+   "anchor": "#pos-b",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/ontology",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/translation-gap",
+   "anchor": "#tl-2026-06-17",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/scope-creep",
+   "p": "lab:addressedBy",
+   "o": "lab:method/minimum-viable-ontology",
+   "anchor": "#pos-b",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/fabric-iq-ontology",
+   "p": "lab:evaluatedBy",
+   "o": "lab:metric/agentic-ai-accuracy",
+   "anchor": "#kpi-gartner",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:concept/context-layer",
+   "p": "lab:evaluatedBy",
+   "o": "lab:metric/agentic-ai-accuracy",
+   "anchor": "#kpi-gartner",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/palantir-ontology",
+   "p": "lab:measuredBy",
+   "o": "lab:metric/palantir-quarterly-revenue",
+   "anchor": "#fig-5-1",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:concept/knowledge-graph",
+   "p": "lab:measuredBy",
+   "o": "lab:metric/kg-fact-count",
+   "anchor": "#tbl-5-2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/llm-ontology-drafting",
+   "p": "lab:partOf",
+   "o": "lab:method/fabric-iq-ontology",
+   "anchor": "#sec-4-3",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:claim/osi-launch-2025",
+   "p": "lab:supports",
+   "o": "lab:standard/open-semantic-interchange",
+   "anchor": "#tl-2025-09-23",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/fabric-iq-announced-2025",
+   "p": "lab:supports",
+   "o": "lab:method/fabric-iq-ontology",
+   "anchor": "#tl-2025-11-18",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/iso-23726-3-dis-vote",
+   "p": "lab:supports",
+   "o": "lab:standard/iso-23726-3",
+   "anchor": "#tl-2025-12-18",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/iso-23726-3-fdis",
+   "p": "lab:supports",
+   "o": "lab:standard/iso-23726-3",
+   "anchor": "#tl-2026-06-03",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/iso-23726-3-stage-6000",
+   "p": "lab:supports",
+   "o": "lab:standard/iso-23726-3",
+   "anchor": "#tl-2026-10-30",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/palantir-q1-2026-revenue",
+   "p": "lab:supports",
+   "o": "lab:metric/palantir-quarterly-revenue",
+   "anchor": "#tl-2026-05-04",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/palantir-q3-2026-revenue",
+   "p": "lab:supports",
+   "o": "lab:metric/palantir-quarterly-revenue",
+   "anchor": "#tl-2026-11-02",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/palantir-seven-quarter-growth",
+   "p": "lab:supports",
+   "o": "lab:metric/palantir-quarterly-revenue",
+   "anchor": "#fig-5-1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/palantir-ontology-intermediary",
+   "p": "lab:supports",
+   "o": "lab:method/palantir-ontology",
+   "anchor": "#tl-2026-05-04",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/gartner-semantics-agents",
+   "p": "lab:supports",
+   "o": "lab:concept/context-layer",
+   "anchor": "#tl-2026-05-11",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/gartner-semantics-agents",
+   "p": "lab:supports",
+   "o": "lab:claim/position-build-semantics-first",
+   "anchor": "#pos-a",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/gartner-2027-prediction",
+   "p": "lab:supports",
+   "o": "lab:metric/agentic-ai-accuracy",
+   "anchor": "#kpi-gartner",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/fabric-iq-ga-2026",
+   "p": "lab:supports",
+   "o": "lab:method/fabric-iq-ontology",
+   "anchor": "#tl-2026-06-02",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/forrester-semantics-first",
+   "p": "lab:supports",
+   "o": "lab:claim/position-build-semantics-first",
+   "anchor": "#pos-a",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/forrester-semantics-first",
+   "p": "lab:supports",
+   "o": "lab:concept/semantic-layer",
+   "anchor": "#tl-2026-06-02-forrester",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/thoughtworks-failure-reasons",
+   "p": "lab:supports",
+   "o": "lab:claim/position-start-narrow",
+   "anchor": "#pos-b",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/thoughtworks-failure-reasons",
+   "p": "lab:supports",
+   "o": "lab:limitation/ontology-maintenance",
+   "anchor": "#pos-b",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/thoughtworks-failure-reasons",
+   "p": "lab:supports",
+   "o": "lab:limitation/scope-creep",
+   "anchor": "#pos-b",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/thoughtworks-failure-reasons",
+   "p": "lab:supports",
+   "o": "lab:limitation/translation-gap",
+   "anchor": "#tl-2026-06-17",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/gartner-first-take-fabric",
+   "p": "lab:supports",
+   "o": "lab:limitation/ai-draft-incompleteness",
+   "anchor": "#pos-b",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/gartner-first-take-fabric",
+   "p": "lab:supports",
+   "o": "lab:claim/position-start-narrow",
+   "anchor": "#pos-b",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/google-kg-2012",
+   "p": "lab:supports",
+   "o": "lab:metric/kg-fact-count",
+   "anchor": "#tbl-5-2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/google-kg-2020",
+   "p": "lab:supports",
+   "o": "lab:metric/kg-fact-count",
+   "anchor": "#tbl-5-2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/gruber-1993-definition",
+   "p": "lab:supports",
+   "o": "lab:concept/ontology",
+   "anchor": "#sec-4-1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/graphrag-2024",
+   "p": "lab:supports",
+   "o": "lab:method/graphrag",
+   "anchor": "#sec-4-2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/llms4ol-2023",
+   "p": "lab:supports",
+   "o": "lab:concept/ontology-learning",
+   "anchor": "#sec-4-2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/atlan-demand-and-cost",
+   "p": "lab:supports",
+   "o": "lab:method/llm-ontology-drafting",
+   "anchor": "#sec-4-3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/palantir-ontology-intermediary",
+   "p": "lab:supports",
+   "o": "lab:claim/position-build-semantics-first",
+   "anchor": "#pos-a",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/position-build-semantics-first",
+   "p": "lab:contrastsWith",
+   "o": "lab:claim/position-start-narrow",
+   "anchor": "#sec-6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/google-kg-2012",
+   "p": "lab:supersededBy",
+   "o": "lab:claim/google-kg-2020",
+   "anchor": "#tbl-5-2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/iso-23726-3-dis-vote",
+   "p": "lab:supersededBy",
+   "o": "lab:claim/iso-23726-3-fdis",
+   "anchor": "#tl-2026-06-03",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/iso-23726-3-fdis",
+   "p": "lab:supersededBy",
+   "o": "lab:claim/iso-23726-3-stage-6000",
+   "anchor": "#tl-2026-10-30",
+   "confidence": "medium"
+  },
+  {
+   "s": "lab:claim/fabric-iq-announced-2025",
+   "p": "lab:supersededBy",
+   "o": "lab:claim/fabric-iq-ga-2026",
+   "anchor": "#tl-2026-06-02",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/gartner-2027-prediction",
+   "p": "lab:raises",
+   "o": "lab:question/gartner-prediction-validity",
+   "anchor": "#q-gartner",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:standard/iso-23726-3",
+   "p": "lab:raises",
+   "o": "lab:question/iso-23726-3-publication-date",
+   "anchor": "#q-iso",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/fabric-iq-ga-2026",
+   "p": "lab:raises",
+   "o": "lab:question/fabric-iq-ontology-ga-date",
+   "anchor": "#q-fabric",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/palantir-ontology-intermediary",
+   "p": "lab:raises",
+   "o": "lab:question/revenue-ontology-causality",
+   "anchor": "#q-causal",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:standard/open-semantic-interchange",
+   "p": "lab:raises",
+   "o": "lab:question/osi-adoption",
+   "anchor": "#q-osi",
+   "confidence": "high"
+  }
+ ]
+}

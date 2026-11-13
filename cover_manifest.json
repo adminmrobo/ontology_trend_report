@@ -1,0 +1,10 @@
+{
+ "series_ko": "연구실 리포트(동향)",
+ "title_ko": "왜 지금 온톨로지인가 — AI 에이전트 시대에 다시 불려 나온 30년 된 개념",
+ "site_url": "https://adminmrobo.github.io/ontology_trend_report/",
+ "ontology": {"pages": [{"path": "index.html", "kg": true, "export": true}],
+              "files": ["kg/kg.json", "kg/refs.json", "kg/meta.json", "kg/registry_additions.json"]},
+ "languages": ["ko"],
+ "items": [],
+ "updated": "2026-11-13"
+}
